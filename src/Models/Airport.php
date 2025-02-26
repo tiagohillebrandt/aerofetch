@@ -2,6 +2,11 @@
 
 namespace THSCD\AeroFetch\Models;
 
+/**
+ * The Airport Model.
+ *
+ * @since {VERSION}
+ */
 class Airport extends AbstractModel
 {
     /**

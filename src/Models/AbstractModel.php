@@ -2,6 +2,11 @@
 
 namespace THSCD\AeroFetch\Models;
 
+/**
+ * The Abstract Model.
+ *
+ * @since {VERSION}
+ */
 abstract class AbstractModel
 {
     /**
@@ -27,8 +32,10 @@ abstract class AbstractModel
      *
      * @param string $name  The property name.
      * @param mixed  $value The property value.
+     *
+     * @return void
      */
-    public function __set(string $name, $value)
+    public function __set(string $name, $value) // phpcs:ignore Squiz.Commenting.FunctionComment.TypeHintMissing
     {
         if (property_exists($this, $name)) {
             $this->$name = $value;

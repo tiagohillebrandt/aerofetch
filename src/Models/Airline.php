@@ -2,6 +2,11 @@
 
 namespace THSCD\AeroFetch\Models;
 
+/**
+ * The Airline Model.
+ *
+ * @since {VERSION}
+ */
 class Airline extends AbstractModel
 {
     /**
