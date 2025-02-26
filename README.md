@@ -1,6 +1,6 @@
 # AeroFecth
 
-## Airport
+## Airports
 
 Retrieve airport information by IATA code.
 
@@ -50,4 +50,36 @@ class THSCD\AeroFetch\Models\Airport#6358 (9) {
 }
 
 GRU (Guarulhos - Governador André Franco Montoro International Airport) is located in São Paulo, BR (South America)
+```
+
+## Airlines
+
+Only airlines that are currently [IATA members](https://www.iata.org/en/about/members/airline-list/) are supported.
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AirlineService;
+
+// Retrieve airline information by IATA designator.
+$airline = AirlineService::get('AD');
+
+// Output the airline object.
+var_dump($airline);
+```
+
+Result:
+
+```php
+class THSCD\AeroFetch\Models\Airline#98 (5) {
+  protected string $name =>
+  string(23) "Azul Brazilian Airlines"
+  protected string $iataCode =>
+  string(2) "AD"
+  protected string $icaoCode =>
+  string(3) "AZU"
+  protected string $threeDigitCode =>
+  string(3) "577"
+  protected string $country =>
+  string(6) "Brazil"
+}
 ```
