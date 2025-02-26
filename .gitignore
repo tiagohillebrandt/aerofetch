@@ -1,6 +1,7 @@
 .*.swp
 .DS_Store
 .idea
+debug.php
 
 /node_modules
 /vendor
