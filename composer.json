@@ -1,4 +1,7 @@
 {
+  "name": "tiagohillebrandt/aerofetch",
+  "description": "A PHP library for retrieving airport and airline details.",
+  "type": "library",
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.11"
   },
@@ -6,5 +9,12 @@
     "psr-4": {
       "THSCD\\AeroFetch\\": "src/"
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "Tiago Hillebrandt",
+      "email": "tiago@tiagohillebrandt.com",
+      "role": "Maintainer"
+    }
+  ]
 }
