@@ -1,4 +1,11 @@
-# AeroFecth
+# AeroFetch
+
+AeroFetch is a PHP library for retrieving airport and airline details.
+
+| Dataset  | Last Updated |
+|----------|--------------|
+| Airports | 2025-02-26   |
+| Airlines | 2025-02-26   |
 
 ## Airports
 
