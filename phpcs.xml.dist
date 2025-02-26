@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ruleset name="AeroFetch">
+  <description>The coding standards for AeroFetch PHP library.</description>
+
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+  <arg value="s"/>
+
+  <file>.</file>
+
+  <exclude-pattern>/vendor/*</exclude-pattern>
+
+  <!-- PSR-12 standard. -->
+  <rule ref="PSR12">
+    <exclude name="Generic.Files.LineLength.TooLong"/>
+    <exclude name="PSR12.Properties.ConstantVisibility.NotFound"/>
+    <exclude name="Squiz.Commenting.VariableComment.TagNotAllowed"/>
+    <exclude name="Squiz.Commenting.VariableComment.VarOrder"/>
+    <exclude name="Squiz.Commenting.ClassComment.TagNotAllowed"/>
+    <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/>
+  </rule>
+
+  <!-- PHP doc rules. -->
+  <rule ref="Squiz.Commenting.FunctionComment" />
+  <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
+  <rule ref="Squiz.Commenting.ClassComment" />
+  <rule ref="Squiz.Commenting.VariableComment" />
+
+  <!-- Validate variable names. -->
+  <rule ref="Squiz.NamingConventions.ValidVariableName">
+    <!-- Do not require underscores for private variables. -->
+    <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+  </rule>
+
+  <!-- Check the alignment of assignment operators. -->
+  <rule ref="Generic.Formatting.MultipleStatementAlignment">
+    <properties>
+      <property name="alignAtEnd" value="false" />
+    </properties>
+  </rule>
+
+  <!-- Arrays indentation. -->
+  <rule ref="Generic.Arrays.ArrayIndent"/>
+
+  <!-- PHP discouraged functions. -->
+  <rule ref="Squiz.PHP.DiscouragedFunctions">
+    <properties>
+      <property name="error" value="true" />
+    </properties>
+  </rule>
+
+  <!-- Enforce the padding around concatenation operators. -->
+  <rule ref="Squiz.Strings.ConcatenationSpacing">
+    <properties>
+      <property name="spacing" value="1" />
+    </properties>
+  </rule>
+
+  <!-- Generate warnings for commented out code. -->
+  <rule ref="Squiz.PHP.CommentedOutCode"/>
+</ruleset>
