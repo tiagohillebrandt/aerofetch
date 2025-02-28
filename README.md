@@ -82,9 +82,6 @@ $airports = AirportService::getBy('country', 'US'); // United States.
 ### Retrieving all airports by continent
 
 ```php
-<?php
-use THSCD\AeroFetch\Services\AirportService;
-
 $airports = AirportService::getBy('continent', 'Europe');
 ```
 
