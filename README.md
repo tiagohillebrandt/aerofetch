@@ -19,7 +19,7 @@ use THSCD\AeroFetch\Services\AirportService;
 $airport = AirportService::get('GRU');
 
 // Output the airport object.
-var_dump($airport);
+print_r($airport);
 
 // Output the airport information using the object properties.
 echo sprintf(
@@ -27,7 +27,7 @@ echo sprintf(
     $airport->iataCode,
     $airport->name,
     $airport->municipality,
-    $airport->country,
+    $airport->country->name,
     $airport->continent
 );
 ```
@@ -35,28 +35,27 @@ echo sprintf(
 Result:
 
 ```php
-class THSCD\AeroFetch\Models\Airport#6358 (9) {
-  protected string $name =>
-  string(66) "Guarulhos - Governador André Franco Montoro International Airport"
-  protected string $iataCode =>
-  string(3) "GRU"
-  protected string $icaoCode =>
-  string(4) "SBGR"
-  protected string $continent =>
-  string(13) "South America"
-  protected string $country =>
-  string(2) "BR"
-  protected string $region =>
-  string(5) "BR-SP"
-  protected string $municipality =>
-  string(10) "São Paulo"
-  protected string $latitude =>
-  string(10) "-23.431944"
-  protected string $longitude =>
-  string(10) "-46.467778"
-}
+THSCD\AeroFetch\Models\Airport Object
+(
+    [name:protected] => Guarulhos - Governador André Franco Montoro International Airport
+    [iataCode:protected] => GRU
+    [icaoCode:protected] => SBGR
+    [continent:protected] => South America
+    [country:protected] => THSCD\AeroFetch\Models\Country Object
+        (
+            [name:protected] => Brazil
+            [alpha2Code:protected] => BR
+            [alpha3Code:protected] => BRA
+            [numericCode:protected] => 076
+        )
 
-GRU (Guarulhos - Governador André Franco Montoro International Airport) is located in São Paulo, BR (South America)
+    [region:protected] => BR-SP
+    [municipality:protected] => São Paulo
+    [latitude:protected] => -23.431944
+    [longitude:protected] => -46.467778
+)
+
+GRU (Guarulhos - Governador André Franco Montoro International Airport) is located in São Paulo, Brazil (South America)
 ```
 
 ## Airlines
@@ -71,22 +70,24 @@ use THSCD\AeroFetch\Services\AirlineService;
 $airline = AirlineService::get('AD');
 
 // Output the airline object.
-var_dump($airline);
+print_r($airline);
 ```
 
 Result:
 
 ```php
-class THSCD\AeroFetch\Models\Airline#98 (5) {
-  protected string $name =>
-  string(23) "Azul Brazilian Airlines"
-  protected string $iataCode =>
-  string(2) "AD"
-  protected string $icaoCode =>
-  string(3) "AZU"
-  protected string $threeDigitCode =>
-  string(3) "577"
-  protected string $country =>
-  string(6) "Brazil"
-}
+THSCD\AeroFetch\Models\Airline Object
+(
+    [name:protected] => Azul Brazilian Airlines
+    [iataCode:protected] => AD
+    [icaoCode:protected] => AZU
+    [threeDigitCode:protected] => 577
+    [country:protected] => THSCD\AeroFetch\Models\Country Object
+        (
+            [name:protected] => Brazil
+            [alpha2Code:protected] => BR
+            [alpha3Code:protected] => BRA
+            [numericCode:protected] => 076
+        )
+)
 ```
