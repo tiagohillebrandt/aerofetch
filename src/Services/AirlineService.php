@@ -84,10 +84,29 @@ class AirlineService
      */
     public static function get(string $iataCode)
     {
-        if (empty(self::$airlines)) {
-            self::load();
-        }
+        self::load();
 
         return self::$airlines[ $iataCode ] ?? null;
+    }
+
+    /**
+     * Get an airline by a specific field.
+     *
+     * @since {VERSION}
+     *
+     * @param string $field The field to search by.
+     * @param mixed  $value The value to search for.
+     *
+     * @return Airline|array|null
+     */
+    public static function get_by(string $field, string $value)
+    {
+        self::load();
+
+        $airlines = array_filter(self::$airlines, fn($airline) => $airline->$field === $value) ?: null;
+
+        return is_array($airlines) && count($airlines) === 1
+            ? current($airlines)
+            : $airlines;
     }
 }

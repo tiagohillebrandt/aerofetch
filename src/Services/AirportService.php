@@ -84,14 +84,35 @@ class AirportService
      */
     public static function get(string $iataCode = null)
     {
-        if (empty(self::$airports)) {
-            self::load();
-        }
+        self::load();
 
         if (is_string($iataCode)) {
             return self::$airports[$iataCode];
         }
 
         return self::$airports;
+    }
+
+    /**
+     * Get airports by field value.
+     *
+     * @since {VERSION}
+     *
+     * @param string $field The field name.
+     * @param mixed  $value The field value.
+     *
+     * @return array
+     */
+    public static function get_by($field, $value)
+    {
+        self::load();
+
+        $airports = array_filter(self::$airports, function ($airport) use ($field, $value) {
+            return $airport->$field === $value;
+        }) ?: null;
+
+        return is_array($airports) && count($airports) === 1
+            ? current($airports)
+            : $airports;
     }
 }
