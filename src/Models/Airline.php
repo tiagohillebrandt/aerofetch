@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Models;
 /**
  * The Airline Model.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class Airline extends AbstractModel
 {
     /**
      * The airline name.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -21,7 +21,7 @@ class Airline extends AbstractModel
     /**
      * The IATA code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -30,7 +30,7 @@ class Airline extends AbstractModel
     /**
      * The ICAO code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -39,7 +39,7 @@ class Airline extends AbstractModel
     /**
      * The three-digit code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -48,7 +48,7 @@ class Airline extends AbstractModel
     /**
      * The country.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var Country|string|null
      */

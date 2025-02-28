@@ -9,14 +9,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Airport Service.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class AirportService
 {
     /**
      * The list of airports.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var array
      */
@@ -25,7 +25,7 @@ class AirportService
     /**
      * Load airports information from CSV file and cache them in memory.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AirportService
     /**
      * Build an airport model.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param array $airport The airport data.
      *
@@ -79,7 +79,7 @@ class AirportService
     /**
      * Get an airport by IATA code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string|null $iataCode The IATA code.
      *
@@ -99,7 +99,7 @@ class AirportService
     /**
      * Get airports by field value.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $field The field name.
      * @param mixed  $value The field value.

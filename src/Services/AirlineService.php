@@ -8,14 +8,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Airline Service.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class AirlineService
 {
     /**
      * The list of airlines.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var array
      */
@@ -24,7 +24,7 @@ class AirlineService
     /**
      * Load airlines information from CSV file and cache them in memory.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class AirlineService
     /**
      * Build an airline model.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param array $airline The airline data.
      *
@@ -79,7 +79,7 @@ class AirlineService
     /**
      * Get an airline by IATA code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $iataCode The IATA code.
      *
@@ -95,7 +95,7 @@ class AirlineService
     /**
      * Get an airline by a specific field.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $field The field to search by.
      * @param mixed  $value The value to search for.

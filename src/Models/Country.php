@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Models;
 /**
  * The Country Model.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class Country extends AbstractModel
 {
     /**
      * The country name.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -21,7 +21,7 @@ class Country extends AbstractModel
     /**
      * The alpha-2 code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -30,7 +30,7 @@ class Country extends AbstractModel
     /**
      * The alpha-3 code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -39,7 +39,7 @@ class Country extends AbstractModel
     /**
      * The numeric code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */

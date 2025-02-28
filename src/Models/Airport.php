@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Models;
 /**
  * The Airport Model.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class Airport extends AbstractModel
 {
     /**
      * The airport name.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -21,7 +21,7 @@ class Airport extends AbstractModel
     /**
      * The airport IATA code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -30,7 +30,7 @@ class Airport extends AbstractModel
     /**
      * The airport ICAO code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -39,7 +39,7 @@ class Airport extends AbstractModel
     /**
      * The airport continent.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -48,7 +48,7 @@ class Airport extends AbstractModel
     /**
      * The airport country.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var Country|string|null
      */
@@ -57,7 +57,7 @@ class Airport extends AbstractModel
     /**
      * The airport region.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -66,7 +66,7 @@ class Airport extends AbstractModel
     /**
      * The airport municipality.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -75,7 +75,7 @@ class Airport extends AbstractModel
     /**
      * The airport latitude.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */
@@ -84,7 +84,7 @@ class Airport extends AbstractModel
     /**
      * The airport longitude.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var string
      */

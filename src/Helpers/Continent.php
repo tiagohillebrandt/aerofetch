@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Helpers;
 /**
  * The Continent helper class.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class Continent
 {
     /**
      * The list of continents.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @var array
      */
@@ -29,7 +29,7 @@ class Continent
     /**
      * Get the continent name by code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $code The continent code.
      *

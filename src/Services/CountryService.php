@@ -9,14 +9,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Country Service.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 class CountryService
 {
     /**
      * Build a country model.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param array $country The country data.
      *
@@ -37,7 +37,7 @@ class CountryService
     /**
      * Get a country by its alpha-2 code.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $alpha2Code The alpha-2 code.
      *
@@ -58,7 +58,7 @@ class CountryService
     /**
      * Get a country by its name.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $name The country name.
      *

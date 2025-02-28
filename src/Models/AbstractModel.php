@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Models;
 /**
  * The Abstract Model.
  *
- * @since {VERSION}
+ * @since 1.0.0
  */
 abstract class AbstractModel
 {
     /**
      * The magic getter.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $name The property name.
      *
@@ -28,7 +28,7 @@ abstract class AbstractModel
     /**
      * The magic setter.
      *
-     * @since {VERSION}
+     * @since 1.0.0
      *
      * @param string $name  The property name.
      * @param mixed  $value The property value.
