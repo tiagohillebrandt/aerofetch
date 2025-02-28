@@ -3,6 +3,7 @@
 namespace THSCD\AeroFetch\Services;
 
 use THSCD\AeroFetch\Models\Airline;
+use THSCD\AeroFetch\Models\Country;
 
 /**
  * The Airline Service.
@@ -68,7 +69,9 @@ class AirlineService
         $model->iataCode       = $airline[1];
         $model->icaoCode       = $airline[3];
         $model->threeDigitCode = $airline[2];
-        $model->country        = $airline[4];
+
+        // Loads the Country object.
+        $model->country = CountryService::getByName($airline[4]) ?? $airline[4];
 
         return $model;
     }
@@ -86,15 +89,7 @@ class AirlineService
     {
         self::load();
 
-        $airline = null;
-
-        if (!empty(self::$airlines[$iataCode] )) {
-            $airline = self::$airlines[$iataCode];
-
-            $airline->country = CountryService::getByName($airline->country) ?? $airline->country;
-        }
-
-        return $airline;
+        return self::$airlines[$iataCode] ?? null;
     }
 
     /**
@@ -111,13 +106,10 @@ class AirlineService
     {
         self::load();
 
-        $airlines = array_filter(self::$airlines, fn($airline) => $airline->$field === $value) ?: null;
-
-        if (is_array($airlines)) {
-            foreach ($airlines as $airline) {
-                $airline->country = CountryService::getByName($airline->country) ?? $airline->country;
-            }
-        }
+        $airlines = array_filter(
+            self::$airlines,
+            fn($airline) => ($airline->$field instanceof Country ? $airline->$field->alpha2Code : $airline->$field) === $value
+        ) ?: null;
 
         return is_array($airlines) && count($airlines) === 1
             ? current($airlines)

@@ -4,6 +4,7 @@ namespace THSCD\AeroFetch\Services;
 
 use THSCD\AeroFetch\Helpers\Continent;
 use THSCD\AeroFetch\Models\Airport;
+use THSCD\AeroFetch\Models\Country;
 
 /**
  * The Airport Service.
@@ -64,11 +65,13 @@ class AirportService
         $model->icaoCode     = $airport[1];
         $model->name         = $airport[3];
         $model->continent    = Continent::getName($airport[7]);
-        $model->country      = $airport[8];
         $model->region       = $airport[9];
         $model->municipality = $airport[10];
         $model->latitude     = $airport[4];
         $model->longitude    = $airport[5];
+
+        // Loads the Country object.
+        $model->country = CountryService::get($airport[8]) ?? $airport[8];
 
         return $model;
     }
@@ -87,13 +90,7 @@ class AirportService
         self::load();
 
         if (is_string($iataCode)) {
-            $airport = self::$airports[$iataCode] ?? null;
-
-            if (!empty($airport)) {
-                $airport->country = CountryService::get($airport->country) ?? $airport->country;
-            }
-
-            return $airport;
+            return self::$airports[$iataCode] ?? null;
         }
 
         return self::$airports;
@@ -113,15 +110,10 @@ class AirportService
     {
         self::load();
 
-        $airports = array_filter(self::$airports, function ($airport) use ($field, $value) {
-            return $airport->$field === $value;
-        }) ?: null;
-
-        if (is_array($airports)) {
-            foreach ($airports as $airport) {
-                $airport->country = CountryService::get($airport->country) ?? $airport->country;
-            }
-        }
+        $airports = array_filter(
+            self::$airports,
+            fn($airport) => ($airport->$field instanceof Country ? $airport->$field->alpha2Code : $airport->$field) === $value
+        ) ?: null;
 
         return is_array($airports) && count($airports) === 1
             ? $airports[0]
