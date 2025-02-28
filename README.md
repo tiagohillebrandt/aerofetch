@@ -5,7 +5,7 @@ AeroFetch is a PHP library for retrieving airport and airline details.
 | Dataset  | Last Updated | Source                                                                     |
 |----------|--------------|----------------------------------------------------------------------------|
 | Airports | 2025-02-26   | [OurAirports](https://ourairports.com/data/)                               |
-| Airlines | 2025-02-26   | [IATA](https://www.iata.org/en/about/members/airline-list/) (web scraping) |
+| Airlines | 2025-02-27   | [IATA](https://www.iata.org/en/about/members/airline-list/) (web scraping) |
 
 ## Airports
 
