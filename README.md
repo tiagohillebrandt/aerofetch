@@ -79,6 +79,15 @@ use THSCD\AeroFetch\Services\AirportService;
 $airports = AirportService::getBy('country', 'US'); // United States.
 ```
 
+### Retrieving all airports by continent
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AirportService;
+
+$airports = AirportService::getBy('continent', 'Europe');
+```
+
 ## Airlines
 
 Only airlines that are currently [IATA members](https://www.iata.org/en/about/members/airline-list/) are supported.
