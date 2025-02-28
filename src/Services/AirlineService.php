@@ -86,7 +86,15 @@ class AirlineService
     {
         self::load();
 
-        return self::$airlines[ $iataCode ] ?? null;
+        $airline = null;
+
+        if (!empty(self::$airlines[$iataCode] )) {
+            $airline = self::$airlines[$iataCode];
+
+            $airline->country = CountryService::getByName($airline->country) ?? $airline->country;
+        }
+
+        return $airline;
     }
 
     /**
@@ -99,11 +107,17 @@ class AirlineService
      *
      * @return Airline|array|null
      */
-    public static function get_by(string $field, string $value)
+    public static function getBy(string $field, string $value)
     {
         self::load();
 
         $airlines = array_filter(self::$airlines, fn($airline) => $airline->$field === $value) ?: null;
+
+        if (is_array($airlines)) {
+            foreach ($airlines as $airline) {
+                $airline->country = CountryService::getByName($airline->country) ?? $airline->country;
+            }
+        }
 
         return is_array($airlines) && count($airlines) === 1
             ? current($airlines)

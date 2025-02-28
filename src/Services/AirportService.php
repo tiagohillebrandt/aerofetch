@@ -87,7 +87,13 @@ class AirportService
         self::load();
 
         if (is_string($iataCode)) {
-            return self::$airports[$iataCode];
+            $airport = self::$airports[$iataCode] ?? null;
+
+            if (!empty($airport)) {
+                $airport->country = CountryService::get($airport->country) ?? $airport->country;
+            }
+
+            return $airport;
         }
 
         return self::$airports;
@@ -103,7 +109,7 @@ class AirportService
      *
      * @return array
      */
-    public static function get_by($field, $value)
+    public static function getBy($field, $value)
     {
         self::load();
 
@@ -111,8 +117,14 @@ class AirportService
             return $airport->$field === $value;
         }) ?: null;
 
+        if (is_array($airports)) {
+            foreach ($airports as $airport) {
+                $airport->country = CountryService::get($airport->country) ?? $airport->country;
+            }
+        }
+
         return is_array($airports) && count($airports) === 1
-            ? current($airports)
+            ? $airports[0]
             : $airports;
     }
 }

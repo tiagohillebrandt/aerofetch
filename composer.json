@@ -9,6 +9,9 @@
       "role": "Maintainer"
     }
   ],
+  "require": {
+    "league/iso3166": "^4.3"
+  },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.11"
   },

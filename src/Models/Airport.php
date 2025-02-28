@@ -50,9 +50,9 @@ class Airport extends AbstractModel
      *
      * @since {VERSION}
      *
-     * @var string
+     * @var Country|string|null
      */
-    protected string $country;
+    protected $country;
 
     /**
      * The airport region.
