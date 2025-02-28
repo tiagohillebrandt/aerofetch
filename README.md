@@ -1,13 +1,27 @@
 # AeroFetch
 
-AeroFetch is a PHP library for retrieving airport and airline details.
+AeroFetch is a powerful yet lightweight PHP library designed to seamlessly retrieve airport and airline details without the need for an external database or API.
 
-| Dataset  | Last Updated | Source                                                                     |
-|----------|--------------|----------------------------------------------------------------------------|
-| Airports | 2025-02-26   | [OurAirports](https://ourairports.com/data/)                               |
-| Airlines | 2025-02-27   | [IATA](https://www.iata.org/en/about/members/airline-list/) (web scraping) |
+🔹 Fast & Efficient – All data is stored in optimized CSV files, ensuring quick lookups without unnecessary overhead.
 
-## Airports
+🔹 Regular Updates – Stay up-to-date with the latest airport and airline information, thanks to frequent data refreshes.
+
+🔹 Easy Integration – Simple API methods make it effortless to fetch details based on IATA/ICAO codes, country, or name.
+
+🔹 No Dependencies – Works standalone with pure PHP, making it ideal for projects that need lightweight data access.
+
+## Installation
+
+You can easily install AeroFetch using Composer:
+
+```
+composer require tiagohillebrandt/aerofetch
+```
+
+That's it! Once installed, you can start retrieving airport and airline details with ease. 🚀
+
+## Documentation
+### Airports
 
 Retrieve airport information by IATA code.
 
@@ -58,7 +72,19 @@ THSCD\AeroFetch\Models\Airport Object
 GRU (Guarulhos - Governador André Franco Montoro International Airport) is located in São Paulo, Brazil (South America)
 ```
 
-## Airlines
+#### Retrieving all airports by country code
+
+You can find the list of ISO 3166-1 alpha-2 country codes [here](https://www.iban.com/country-codes).
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AirportService;
+
+// Retrieve airline information by ISO 3166-1 alpha-2 country code.
+$airports = AirportService::getBy('country', 'US'); // United States.
+```
+
+### Airlines
 
 Only airlines that are currently [IATA members](https://www.iata.org/en/about/members/airline-list/) are supported.
 
@@ -91,3 +117,24 @@ THSCD\AeroFetch\Models\Airline Object
         )
 )
 ```
+
+#### Retrieving all airlines by country code
+
+You can find the list of ISO 3166-1 alpha-2 country codes [here](https://www.iban.com/country-codes).
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AirlineService;
+
+// Retrieve airline information by ISO 3166-1 alpha-2 country code.
+$airlines = AirlineService::getBy('country', 'BR'); // Brazil.
+```
+
+## Datasets
+
+Datasets used by AeroFetch for airport and airline information:
+
+| Dataset  | Last Updated | Source                                                                                      |
+|----------|--------------|---------------------------------------------------------------------------------------------|
+| Airports | 2025-02-26   | [OurAirports](https://ourairports.com/data/)                                                |
+| Airlines | 2025-02-27   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |
