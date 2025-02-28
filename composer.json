@@ -1,5 +1,6 @@
 {
   "name": "tiagohillebrandt/aerofetch",
+  "version": "dev",
   "description": "A PHP library for retrieving airport and airline details.",
   "type": "library",
   "license": "GPL-3.0-or-later",
