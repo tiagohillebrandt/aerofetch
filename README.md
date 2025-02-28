@@ -1,13 +1,9 @@
 # AeroFetch
-
 AeroFetch is a powerful yet lightweight PHP library designed to seamlessly retrieve airport and airline details without the need for an external database or API.
 
 🔹 Fast & Efficient – All data is stored in optimized CSV files, ensuring quick lookups without unnecessary overhead.
-
 🔹 Regular Updates – Stay up-to-date with the latest airport and airline information, thanks to frequent data refreshes.
-
 🔹 Easy Integration – Simple API methods make it effortless to fetch details based on IATA/ICAO codes, country, or name.
-
 🔹 No Dependencies – Works standalone with pure PHP, making it ideal for projects that need lightweight data access.
 
 ## Installation
