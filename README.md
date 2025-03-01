@@ -138,5 +138,5 @@ Datasets used by AeroFetch for airport and airline information:
 
 | Dataset  | Last Updated | Source                                                                                      |
 |----------|--------------|---------------------------------------------------------------------------------------------|
-| Airports | 2025-02-26   | [OurAirports](https://ourairports.com/data/)                                                |
+| Airports | 2025-03-01   | [OurAirports](https://ourairports.com/data/)                                                |
 | Airlines | 2025-02-27   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |
