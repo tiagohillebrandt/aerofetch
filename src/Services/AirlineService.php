@@ -3,7 +3,7 @@
 namespace THSCD\AeroFetch\Services;
 
 use THSCD\AeroFetch\Models\Airline;
-use THSCD\AeroFetch\Models\Country;
+use THSCD\AeroFetch\Repositories\AirlineRepository;
 
 /**
  * The Airline Service.
@@ -13,67 +13,24 @@ use THSCD\AeroFetch\Models\Country;
 class AirlineService
 {
     /**
-     * The list of airlines.
+     * The airline repository.
      *
-     * @since 1.0.0
+     * @since {VERSION}
      *
-     * @var array
+     * @var AirlineRepository
      */
-    private static array $airlines = [];
+    private static AirlineRepository $repository;
 
     /**
-     * Load airlines information from CSV file and cache them in memory.
+     * Get the repository.
      *
-     * @since 1.0.0
+     * @since {VERSION}
      *
-     * @return void
+     * @return AirlineRepository
      */
-    private static function load()
+    private static function getRepository()
     {
-        if (!empty(self::$airlines)) {
-            return;
-        }
-
-        $airlines = array_map(
-            function ($line) {
-                return str_getcsv($line, ';');
-            },
-            file(__DIR__ . '/../../data/airlines.csv')
-        );
-
-        foreach ($airlines as $airline) {
-            if ($airline[0] === 'airline') {
-                continue;
-            }
-
-            $model = self::build($airline);
-
-            self::$airlines[$model->iataCode] = $model;
-        }
-    }
-
-    /**
-     * Build an airline model.
-     *
-     * @since 1.0.0
-     *
-     * @param array $airline The airline data.
-     *
-     * @return Airline
-     */
-    private static function build(array $airline): Airline
-    {
-        $model = new Airline();
-
-        $model->name           = $airline[0];
-        $model->iataCode       = $airline[1];
-        $model->icaoCode       = $airline[3];
-        $model->threeDigitCode = $airline[2];
-
-        // Loads the Country object.
-        $model->country = CountryService::getByName($airline[4]) ?? $airline[4];
-
-        return $model;
+        return self::$repository ??= new AirlineRepository();
     }
 
     /**
@@ -87,9 +44,7 @@ class AirlineService
      */
     public static function get(string $iataCode)
     {
-        self::load();
-
-        return self::$airlines[$iataCode] ?? null;
+        return self::getRepository()->get($iataCode);
     }
 
     /**
@@ -98,21 +53,12 @@ class AirlineService
      * @since 1.0.0
      *
      * @param string $field The field to search by.
-     * @param mixed  $value The value to search for.
+     * @param string $value The value to search for.
      *
-     * @return Airline|array|null
+     * @return array|null
      */
     public static function getBy(string $field, string $value)
     {
-        self::load();
-
-        $airlines = array_filter(
-            self::$airlines,
-            fn($airline) => ($airline->$field instanceof Country ? $airline->$field->alpha2Code : $airline->$field) === $value
-        ) ?: null;
-
-        return is_array($airlines) && count($airlines) === 1
-            ? current($airlines)
-            : $airlines;
+        return self::getRepository()->getBy($field, $value);
     }
 }

@@ -2,9 +2,8 @@
 
 namespace THSCD\AeroFetch\Services;
 
-use THSCD\AeroFetch\Helpers\Continent;
 use THSCD\AeroFetch\Models\Airport;
-use THSCD\AeroFetch\Models\Country;
+use THSCD\AeroFetch\Repositories\AirportRepository;
 
 /**
  * The Airport Service.
@@ -14,66 +13,24 @@ use THSCD\AeroFetch\Models\Country;
 class AirportService
 {
     /**
-     * The list of airports.
+     * The airport repository.
      *
-     * @since 1.0.0
+     * @since {VERSION}
      *
-     * @var array
+     * @var AirportRepository
      */
-    private static array $airports = [];
+    private static AirportRepository $repository;
 
     /**
-     * Load airports information from CSV file and cache them in memory.
+     * Get the repository.
      *
-     * @since 1.0.0
+     * @since {VERSION}
      *
-     * @return void
+     * @return AirportRepository
      */
-    private static function load()
+    private static function getRepository()
     {
-        if (!empty(self::$airports)) {
-            return;
-        }
-
-        $airports = array_map('str_getcsv', file(__DIR__ . '/../../data/airports.csv'));
-
-        foreach ($airports as $airport) {
-            if ($airport[0] === 'id') {
-                continue;
-            }
-
-            $model = self::build($airport);
-
-            self::$airports[$model->iataCode] = $model;
-        }
-    }
-
-    /**
-     * Build an airport model.
-     *
-     * @since 1.0.0
-     *
-     * @param array $airport The airport data.
-     *
-     * @return Airport
-     */
-    private static function build(array $airport): Airport
-    {
-        $model = new Airport();
-
-        $model->iataCode     = $airport[13];
-        $model->icaoCode     = $airport[1];
-        $model->name         = $airport[3];
-        $model->continent    = Continent::getName($airport[7]);
-        $model->region       = $airport[9];
-        $model->municipality = $airport[10];
-        $model->latitude     = $airport[4];
-        $model->longitude    = $airport[5];
-
-        // Loads the Country object.
-        $model->country = CountryService::get($airport[8]) ?? $airport[8];
-
-        return $model;
+        return self::$repository ??= new AirportRepository();
     }
 
     /**
@@ -81,19 +38,13 @@ class AirportService
      *
      * @since 1.0.0
      *
-     * @param string|null $iataCode The IATA code.
+     * @param string $iataCode The IATA code.
      *
      * @return Airport|array
      */
-    public static function get(string $iataCode = null)
+    public static function get(string $iataCode)
     {
-        self::load();
-
-        if (is_string($iataCode)) {
-            return self::$airports[$iataCode] ?? null;
-        }
-
-        return self::$airports;
+        return self::getRepository()->get($iataCode);
     }
 
     /**
@@ -102,21 +53,12 @@ class AirportService
      * @since 1.0.0
      *
      * @param string $field The field name.
-     * @param mixed  $value The field value.
+     * @param string $value The field value.
      *
      * @return array
      */
-    public static function getBy($field, $value)
+    public static function getBy(string $field, string $value)
     {
-        self::load();
-
-        $airports = array_filter(
-            self::$airports,
-            fn($airport) => ($airport->$field instanceof Country ? $airport->$field->alpha2Code : $airport->$field) === $value
-        ) ?: null;
-
-        return is_array($airports) && count($airports) === 1
-            ? $airports[0]
-            : $airports;
+        return self::getRepository()->getBy($field, $value);
     }
 }
