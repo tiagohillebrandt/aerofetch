@@ -8,14 +8,14 @@ use THSCD\AeroFetch\Services\CountryService;
 /**
  * The Airline Factory.
  *
- * @since {VERSION}
+ * @since 1.1.0
  */
 class AirlineFactory
 {
     /**
      * Build an airline model.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param array $airline The airline data.
      *

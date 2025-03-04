@@ -7,14 +7,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Country Factory.
  *
- * @since {VERSION}
+ * @since 1.1.0
  */
 class CountryFactory
 {
     /**
      * Build a country model.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param array $country The country data.
      *

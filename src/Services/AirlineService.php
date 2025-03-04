@@ -15,7 +15,7 @@ class AirlineService
     /**
      * The airline repository.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @var AirlineRepository
      */
@@ -24,7 +24,7 @@ class AirlineService
     /**
      * Get the repository.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @return AirlineRepository
      */

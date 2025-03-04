@@ -9,14 +9,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Airline Repository.
  *
- * @since {VERSION}
+ * @since 1.1.0
  */
 class AirlineRepository
 {
     /**
      * The airlines.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @var array
      */
@@ -25,7 +25,7 @@ class AirlineRepository
     /**
      * AirlineRepository constructor.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      */
     public function __construct()
     {
@@ -66,7 +66,7 @@ class AirlineRepository
     /**
      * Get an airline by IATA code.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param string $iataCode The IATA code.
      *
@@ -80,7 +80,7 @@ class AirlineRepository
     /**
      * Get airlines by a specific field.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param string $field The field to search by.
      * @param string $value The value to search for.

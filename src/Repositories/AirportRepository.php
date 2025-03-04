@@ -9,14 +9,14 @@ use THSCD\AeroFetch\Models\Country;
 /**
  * The Airport Repository.
  *
- * @since {VERSION}
+ * @since 1.1.0
  */
 class AirportRepository
 {
     /**
      * The airports.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @var array
      */
@@ -25,7 +25,7 @@ class AirportRepository
     /**
      * AirportRepository constructor.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      */
     public function __construct()
     {
@@ -75,7 +75,7 @@ class AirportRepository
     /**
      * Get airports by field value.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param string $field The field to search by.
      * @param string $value The value to search for.

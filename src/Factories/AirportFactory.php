@@ -9,14 +9,14 @@ use THSCD\AeroFetch\Services\CountryService;
 /**
  * The Airport Factory.
  *
- * @since {VERSION}
+ * @since 1.1.0
  */
 class AirportFactory
 {
     /**
      * Build an airport model.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @param array $airport The airport data.
      *

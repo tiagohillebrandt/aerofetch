@@ -93,7 +93,7 @@ class Airport extends AbstractModel
     /**
      * The airport timezone.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @var string
      */

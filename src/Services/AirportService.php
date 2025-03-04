@@ -15,7 +15,7 @@ class AirportService
     /**
      * The airport repository.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @var AirportRepository
      */
@@ -24,7 +24,7 @@ class AirportService
     /**
      * Get the repository.
      *
-     * @since {VERSION}
+     * @since 1.1.0
      *
      * @return AirportRepository
      */
