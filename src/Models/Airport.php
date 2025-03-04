@@ -89,4 +89,13 @@ class Airport extends AbstractModel
      * @var string
      */
     protected string $longitude;
+
+    /**
+     * The airport timezone.
+     *
+     * @since {VERSION}
+     *
+     * @var string
+     */
+    protected string $timezone;
 }
