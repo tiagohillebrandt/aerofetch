@@ -34,8 +34,8 @@ print_r($airport);
 // Output the airport information using the object properties.
 echo sprintf(
     '%s (%s) is located in %s, %s (%s)',
-    $airport->iataCode,
     $airport->name,
+    $airport->iataCode,
     $airport->municipality,
     $airport->country->name,
     $airport->continent
@@ -63,9 +63,10 @@ THSCD\AeroFetch\Models\Airport Object
     [municipality:protected] => São Paulo
     [latitude:protected] => -23.431944
     [longitude:protected] => -46.467778
+    [timezone:protected] => America/Sao_Paulo
 )
 
-GRU (Guarulhos - Governador André Franco Montoro International Airport) is located in São Paulo, Brazil (South America)
+Guarulhos - Governador André Franco Montoro International Airport (GRU) is located in São Paulo, Brazil (South America)
 ```
 
 ### Retrieving all airports by country code
@@ -136,7 +137,7 @@ $airlines = AirlineService::getBy('country', 'BR'); // Brazil.
 
 Datasets used by AeroFetch for airport and airline information:
 
-| Dataset  | Last Updated | Source                                                                                      |
-|----------|--------------|---------------------------------------------------------------------------------------------|
-| Airports | 2025-03-01   | [OurAirports](https://ourairports.com/data/)                                                |
+| Dataset  | Last Updated | Source                                                                                                                                               |
+|----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Airports | 2025-03-04   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
 | Airlines | 2025-02-27   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |

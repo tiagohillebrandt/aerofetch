@@ -35,6 +35,7 @@ class AirportFactory
         $model->municipality = $airport[10];
         $model->latitude     = $airport[4];
         $model->longitude    = $airport[5];
+        $model->timezone     = $airport[19];
 
         return $model;
     }
