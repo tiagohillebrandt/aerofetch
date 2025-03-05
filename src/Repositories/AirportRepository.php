@@ -48,7 +48,7 @@ class AirportRepository
         $airports = array_map('str_getcsv', file(__DIR__ . '/../../data/airports.csv'));
 
         foreach ($airports as $airport) {
-            if ($airport[0] === 'id') {
+            if ($airport[0] === 'name') {
                 continue;
             }
 

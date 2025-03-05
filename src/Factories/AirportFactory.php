@@ -26,16 +26,16 @@ class AirportFactory
     {
         $model = new Airport();
 
-        $model->iataCode     = $airport[13];
-        $model->icaoCode     = $airport[1];
-        $model->name         = $airport[3];
-        $model->continent    = Continent::getName($airport[7]);
-        $model->country      = CountryService::get($airport[8]) ?? $airport[8];
-        $model->region       = $airport[9];
-        $model->municipality = $airport[10];
-        $model->latitude     = $airport[4];
-        $model->longitude    = $airport[5];
-        $model->timezone     = $airport[19];
+        $model->iataCode     = $airport[8];
+        $model->icaoCode     = $airport[7];
+        $model->name         = $airport[0];
+        $model->continent    = Continent::getName($airport[3]);
+        $model->country      = CountryService::get($airport[4]) ?? $airport[4];
+        $model->region       = $airport[5];
+        $model->municipality = $airport[6];
+        $model->latitude     = $airport[1];
+        $model->longitude    = $airport[2];
+        $model->timezone     = $airport[9];
 
         return $model;
     }
