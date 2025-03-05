@@ -137,7 +137,7 @@ $airlines = AirlineService::getBy('country', 'BR'); // Brazil.
 
 Datasets used by AeroFetch for airport and airline information:
 
-| Dataset  | Last Updated | Source                                                                                                                                               |
-|----------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Airports | 2025-03-04   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
-| Airlines | 2025-02-27   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |
+| Dataset      | Last Updated | Source                                                                                                                                               |
+|--------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| airports.csv | 2025-03-04   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
+| airlines.csv | 2025-02-27   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |
