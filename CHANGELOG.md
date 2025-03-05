@@ -1,9 +1,18 @@
 # Changelog
-
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.1] - 2025-03-05
+### Changed
+- Updated the airport repository and factory to work with the new airport dataset structure. https://github.com/tiagohillebrandt/aerofetch/pull/6
+
+### Fixed
+- Fixed an issue where the airport ID was returned instead of the ICAO code. https://github.com/tiagohillebrandt/aerofetch/pull/6
+
+### Removed
+- Removed some unnecessary columns from the airport dataset. https://github.com/tiagohillebrandt/aerofetch/pull/6
 
 ## [1.1.0] - 2025-03-04
 ### Added
