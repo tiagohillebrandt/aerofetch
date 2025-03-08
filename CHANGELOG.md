@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Added
+- Created singleton instances to ensure that the dependencies are managed internally within a single instance. https://github.com/tiagohillebrandt/aerofetch/pull/9
+
+### Changed
+- Refactored `CountryService` to centralize country retrieval logic. https://github.com/tiagohillebrandt/aerofetch/pull/9
+
 ## [1.1.1] - 2025-03-05
 ### Changed
 - Updated the airport repository and factory to work with the new airport dataset structure. https://github.com/tiagohillebrandt/aerofetch/pull/6
