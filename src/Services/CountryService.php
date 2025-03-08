@@ -71,14 +71,7 @@ class CountryService
      */
     public static function get(string $alpha2Code): ?Country
     {
-        try {
-            $countryData = self::getInstance()->iso3166->alpha2($alpha2Code);
-
-            return CountryFactory::build($countryData);
-        } catch (Exception $e) {
-        }
-
-        return null;
+        return self::find('alpha2', $alpha2Code);
     }
 
     /**
@@ -92,8 +85,23 @@ class CountryService
      */
     public static function getByName(string $name): ?Country
     {
+        return self::find('name', $name);
+    }
+
+    /**
+     * Find a country by a given method and value.
+     *
+     * @since {VERSION}
+     *
+     * @param string $method The method to use.
+     * @param string $value  The value to search for.
+     *
+     * @return Country|null
+     */
+    private static function find(string $method, string $value): ?Country
+    {
         try {
-            $countryData = self::getInstance()->iso3166->name($name);
+            $countryData = self::getInstance()->iso3166->$method($value);
 
             return CountryFactory::build($countryData);
         } catch (Exception $e) {
