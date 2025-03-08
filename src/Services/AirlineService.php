@@ -16,7 +16,7 @@ class AirlineService
     /**
      * The singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @var AirlineService|null
      */
@@ -34,7 +34,7 @@ class AirlineService
     /**
      * AirlineService constructor.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      */
     private function __construct()
     {
@@ -47,7 +47,7 @@ class AirlineService
     /**
      * Get the singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @return AirlineService
      */

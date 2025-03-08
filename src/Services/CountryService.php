@@ -17,7 +17,7 @@ class CountryService
     /**
      * The singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @var CountryService|null
      */
@@ -26,7 +26,7 @@ class CountryService
     /**
      * The ISO3166 instance.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @var ISO3166
      */
@@ -35,7 +35,7 @@ class CountryService
     /**
      * CountryService constructor.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @param ISO3166 $iso3166 The ISO3166 instance.
      */
@@ -47,7 +47,7 @@ class CountryService
     /**
      * Get the singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @return CountryService
      */
@@ -91,7 +91,7 @@ class CountryService
     /**
      * Find a country by a given method and value.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @param string $method The method to use.
      * @param string $value  The value to search for.

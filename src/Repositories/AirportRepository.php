@@ -25,7 +25,7 @@ class AirportRepository
     /**
      * The airport factory.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @var AirportFactory
      */

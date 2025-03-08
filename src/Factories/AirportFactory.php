@@ -16,7 +16,7 @@ class AirportFactory
     /**
      * The country service.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @var CountryService
      */
@@ -25,7 +25,7 @@ class AirportFactory
     /**
      * AirportFactory constructor.
      *
-     * @since {VERSION}
+     * @since 1.2.0
      *
      * @param CountryService $countryService The country service.
      */
