@@ -1,0 +1,21 @@
+# Exclude Git and editor config files.
+.gitattributes export-ignore
+.gitignore export-ignore
+.editorconfig export-ignore
+
+# Exclude GH configuration.
+.github/ export-ignore
+
+# Exclude tests and build scripts.
+tests/ export-ignore
+docs/ export-ignore
+build/ export-ignore
+scripts/ export-ignore
+
+# Exclude documentation files.
+README.md export-ignore
+CHANGELOG.md export-ignore
+CONTRIBUTING.md export-ignore
+
+# Exclude phpcs configuration.
+phpcs.xml.dist export-ignore
