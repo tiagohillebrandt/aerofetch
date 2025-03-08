@@ -13,6 +13,27 @@ use THSCD\AeroFetch\Services\CountryService;
 class AirlineFactory
 {
     /**
+     * The country service.
+     *
+     * @since {VERSION}
+     *
+     * @var CountryService
+     */
+    protected CountryService $countryService;
+
+    /**
+     * AirlineFactory constructor.
+     *
+     * @since {VERSION}
+     *
+     * @param CountryService $countryService The country service.
+     */
+    public function __construct(CountryService $countryService)
+    {
+        $this->countryService = $countryService;
+    }
+
+    /**
      * Build an airline model.
      *
      * @since 1.1.0
@@ -21,15 +42,19 @@ class AirlineFactory
      *
      * @return Airline
      */
-    public static function build(array $airline): Airline
+    public function build(array $airline): Airline
     {
+        // Get the country.
+        $country = $this->countryService->getByName($airline[4]) ?? $airline[4];
+
+        // Build the model object.
         $model = new Airline();
 
         $model->name           = $airline[0];
         $model->iataCode       = $airline[1];
         $model->icaoCode       = $airline[3];
         $model->threeDigitCode = $airline[2];
-        $model->country        = CountryService::getByName($airline[4]) ?? $airline[4];
+        $model->country        = $country;
 
         return $model;
     }

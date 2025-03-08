@@ -15,6 +15,52 @@ use THSCD\AeroFetch\Models\Country;
 class CountryService
 {
     /**
+     * The singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @var CountryService|null
+     */
+    private static ?self $instance = null;
+
+    /**
+     * The ISO3166 instance.
+     *
+     * @since {VERSION}
+     *
+     * @var ISO3166
+     */
+    private ISO3166 $iso3166;
+
+    /**
+     * CountryService constructor.
+     *
+     * @since {VERSION}
+     *
+     * @param ISO3166 $iso3166 The ISO3166 instance.
+     */
+    private function __construct(ISO3166 $iso3166)
+    {
+        $this->iso3166 = $iso3166;
+    }
+
+    /**
+     * Get the singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @return CountryService
+     */
+    public static function getInstance(): self
+    {
+        if (self::$instance === null) {
+            self::$instance = new self(new ISO3166());
+        }
+
+        return self::$instance;
+    }
+
+    /**
      * Get a country by its alpha-2 code.
      *
      * @since 1.0.0
@@ -26,7 +72,7 @@ class CountryService
     public static function get(string $alpha2Code): ?Country
     {
         try {
-            $countryData = (new ISO3166())->alpha2($alpha2Code);
+            $countryData = self::getInstance()->iso3166->alpha2($alpha2Code);
 
             return CountryFactory::build($countryData);
         } catch (Exception $e) {
@@ -47,7 +93,7 @@ class CountryService
     public static function getByName(string $name): ?Country
     {
         try {
-            $countryData = (new ISO3166())->name($name);
+            $countryData = self::getInstance()->iso3166->name($name);
 
             return CountryFactory::build($countryData);
         } catch (Exception $e) {

@@ -23,12 +23,25 @@ class AirlineRepository
     private array $airlines = [];
 
     /**
+     * The airport factory.
+     *
+     * @since {VERSION}
+     *
+     * @var AirlineFactory
+     */
+    private AirlineFactory $factory;
+
+    /**
      * AirlineRepository constructor.
      *
      * @since 1.1.0
+     *
+     * @param AirlineFactory $factory The airline factory.
      */
-    public function __construct()
+    public function __construct(AirlineFactory $factory)
     {
+        $this->factory = $factory;
+
         $this->load();
     }
 
@@ -57,7 +70,7 @@ class AirlineRepository
                 continue;
             }
 
-            $model = AirlineFactory::build($airline);
+            $model = $this->factory->build($airline);
 
             $this->airlines[$model->iataCode] = $model;
         }

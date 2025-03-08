@@ -2,6 +2,7 @@
 
 namespace THSCD\AeroFetch\Services;
 
+use THSCD\AeroFetch\Factories\AirportFactory;
 use THSCD\AeroFetch\Models\Airport;
 use THSCD\AeroFetch\Repositories\AirportRepository;
 
@@ -13,24 +14,50 @@ use THSCD\AeroFetch\Repositories\AirportRepository;
 class AirportService
 {
     /**
+     * The singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @var AirportService|null
+     */
+    private static ?self $instance = null;
+
+    /**
      * The airport repository.
      *
      * @since 1.1.0
      *
      * @var AirportRepository
      */
-    private static AirportRepository $repository;
+    private AirportRepository $repository;
 
     /**
-     * Get the repository.
+     * AirportService constructor.
      *
-     * @since 1.1.0
-     *
-     * @return AirportRepository
+     * @since {VERSION}
      */
-    private static function getRepository()
+    private function __construct()
     {
-        return self::$repository ??= new AirportRepository();
+        $countryService = CountryService::getInstance();
+        $airportFactory = new AirportFactory($countryService);
+
+        $this->repository = new AirportRepository($airportFactory);
+    }
+
+    /**
+     * Get the singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @return AirportService
+     */
+    private static function getInstance(): self
+    {
+        if (self::$instance === null) {
+            self::$instance = new self();
+        }
+
+        return self::$instance;
     }
 
     /**
@@ -44,7 +71,7 @@ class AirportService
      */
     public static function get(string $iataCode)
     {
-        return self::getRepository()->get($iataCode);
+        return self::getInstance()->repository->get($iataCode);
     }
 
     /**
@@ -59,6 +86,6 @@ class AirportService
      */
     public static function getBy(string $field, string $value)
     {
-        return self::getRepository()->getBy($field, $value);
+        return self::getInstance()->repository->getBy($field, $value);
     }
 }
