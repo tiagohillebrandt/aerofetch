@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Created singleton instances to ensure that the dependencies are managed internally within a single instance. https://github.com/tiagohillebrandt/aerofetch/pull/9
+- Created singleton instances to ensure dependencies are managed internally within a single instance. https://github.com/tiagohillebrandt/aerofetch/pull/9
 
 ### Changed
 - Refactored `CountryService` to centralize country retrieval logic. https://github.com/tiagohillebrandt/aerofetch/pull/9
