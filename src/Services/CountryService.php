@@ -15,6 +15,52 @@ use THSCD\AeroFetch\Models\Country;
 class CountryService
 {
     /**
+     * The singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @var CountryService|null
+     */
+    private static ?self $instance = null;
+
+    /**
+     * The ISO3166 instance.
+     *
+     * @since {VERSION}
+     *
+     * @var ISO3166
+     */
+    private ISO3166 $iso3166;
+
+    /**
+     * CountryService constructor.
+     *
+     * @since {VERSION}
+     *
+     * @param ISO3166 $iso3166 The ISO3166 instance.
+     */
+    private function __construct(ISO3166 $iso3166)
+    {
+        $this->iso3166 = $iso3166;
+    }
+
+    /**
+     * Get the singleton instance.
+     *
+     * @since {VERSION}
+     *
+     * @return CountryService
+     */
+    public static function getInstance(): self
+    {
+        if (self::$instance === null) {
+            self::$instance = new self(new ISO3166());
+        }
+
+        return self::$instance;
+    }
+
+    /**
      * Get a country by its alpha-2 code.
      *
      * @since 1.0.0
@@ -25,14 +71,7 @@ class CountryService
      */
     public static function get(string $alpha2Code): ?Country
     {
-        try {
-            $countryData = (new ISO3166())->alpha2($alpha2Code);
-
-            return CountryFactory::build($countryData);
-        } catch (Exception $e) {
-        }
-
-        return null;
+        return self::find('alpha2', $alpha2Code);
     }
 
     /**
@@ -46,8 +85,23 @@ class CountryService
      */
     public static function getByName(string $name): ?Country
     {
+        return self::find('name', $name);
+    }
+
+    /**
+     * Find a country by a given method and value.
+     *
+     * @since {VERSION}
+     *
+     * @param string $method The method to use.
+     * @param string $value  The value to search for.
+     *
+     * @return Country|null
+     */
+    private static function find(string $method, string $value): ?Country
+    {
         try {
-            $countryData = (new ISO3166())->name($name);
+            $countryData = self::getInstance()->iso3166->$method($value);
 
             return CountryFactory::build($countryData);
         } catch (Exception $e) {

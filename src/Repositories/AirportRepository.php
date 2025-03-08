@@ -23,12 +23,25 @@ class AirportRepository
     private array $airports = [];
 
     /**
+     * The airport factory.
+     *
+     * @since {VERSION}
+     *
+     * @var AirportFactory
+     */
+    private AirportFactory $factory;
+
+    /**
      * AirportRepository constructor.
      *
      * @since 1.1.0
+     *
+     * @param AirportFactory $factory The airport factory.
      */
-    public function __construct()
+    public function __construct(AirportFactory $factory)
     {
+        $this->factory = $factory;
+
         $this->load();
     }
 
@@ -41,19 +54,24 @@ class AirportRepository
      */
     private function load()
     {
+        // If the airports are already loaded, skip the loading process.
         if (!empty($this->airports)) {
             return;
         }
 
+        // Load the airports from the CSV file.
         $airports = array_map('str_getcsv', file(__DIR__ . '/../../data/airports.csv'));
 
         foreach ($airports as $airport) {
+            // Skip the header.
             if ($airport[0] === 'name') {
                 continue;
             }
 
-            $model = AirportFactory::build($airport);
+            // Build the model object.
+            $model = $this->factory->build($airport);
 
+            // Cache the model.
             $this->airports[$model->iataCode] = $model;
         }
     }
