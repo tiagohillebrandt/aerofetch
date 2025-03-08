@@ -13,7 +13,6 @@ build/ export-ignore
 scripts/ export-ignore
 
 # Exclude documentation files.
-README.md export-ignore
 CHANGELOG.md export-ignore
 CONTRIBUTING.md export-ignore
 
