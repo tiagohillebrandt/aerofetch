@@ -145,6 +145,7 @@ Finnair;AY;105;FIN;Finland
 FlexFlight;W2;365;FXT;Denmark
 Fly Baghdad;IF;017;FBA;Iraq
 Fly Namibia;WV;;WAA;Namibia
+Fly2Sky;F6;;VAW;Bulgaria
 flyadeal;F3;560;FAD;Saudi Arabia
 flydubai;FZ;141;FDB;United Arab Emirates
 Flynas;XY;593;KNE;Saudi Arabia
@@ -217,7 +218,6 @@ Loong Air;GJ;891;CDC;China
 LOT Polish Airlines;LO;080;LOT;Poland
 Lucky Air;8L;859;LKE;China
 Lufthansa;LH;220;DLH;Germany
-Lufthansa Cargo;LH;020;GEC;Germany
 Lufthansa CityLine;CL;683;CLH;Germany
 Luxair;LG;149;LGL;Luxembourg
 Madagascar Airlines;MD;258;MGY;Madagascar
