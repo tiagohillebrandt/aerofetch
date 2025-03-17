@@ -1,4 +1,5 @@
 <?php
+
 namespace THSCD\AeroFetch\Services;
 
 use THSCD\AeroFetch\Factories\AircraftFactory;
@@ -66,7 +67,7 @@ class AircraftService
      *
      * @return array|null
      */
-    public static function get($iataCode): ?array
+    public static function get(string $iataCode): ?array
     {
         return self::getInstance()->repository->get($iataCode);
     }
@@ -81,7 +82,7 @@ class AircraftService
      *
      * @return array|null
      */
-    public static function getBy($field, $value): ?array
+    public static function getBy(string $field, string $value): ?array
     {
         return self::getInstance()->repository->getBy($field, $value);
     }

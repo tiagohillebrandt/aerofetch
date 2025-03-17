@@ -1,8 +1,8 @@
 <?php
+
 namespace THSCD\AeroFetch\Repositories;
 
 use THSCD\AeroFetch\Factories\AircraftFactory;
-use THSCD\AeroFetch\Models\Aircraft;
 
 /**
  * The Aircraft Repository.
@@ -91,7 +91,7 @@ class AircraftRepository
             }
         }
 
-        return ! empty( $planes ) ? $planes : null;
+        return ! empty($planes) ? $planes : null;
     }
 
     /**
@@ -114,6 +114,6 @@ class AircraftRepository
             }
         }
 
-        return ! empty( $planes ) ? $planes : null;
+        return ! empty($planes) ? $planes : null;
     }
 }
