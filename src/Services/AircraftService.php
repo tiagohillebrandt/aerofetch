@@ -8,14 +8,14 @@ use THSCD\AeroFetch\Repositories\AircraftRepository;
 /**
  * The Aircraft Service.
  *
- * @since {VERSION}
+ * @since 1.3.0
  */
 class AircraftService
 {
     /**
      * The singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var AircraftService|null
      */
@@ -24,7 +24,7 @@ class AircraftService
     /**
      * The aircraft repository.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var AircraftRepository
      */
@@ -33,7 +33,7 @@ class AircraftService
     /**
      * AircraftService constructor.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      */
     private function __construct()
     {
@@ -45,7 +45,7 @@ class AircraftService
     /**
      * Get the singleton instance.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @return AircraftService
      */
@@ -61,7 +61,7 @@ class AircraftService
     /**
      * Get the aircraft by IATA code.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param string $iataCode The IATA code.
      *
@@ -75,7 +75,7 @@ class AircraftService
     /**
      * Get the aircraft by field and value.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param string $field The field to search by.
      * @param string $value The value to search for.

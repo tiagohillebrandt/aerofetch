@@ -5,14 +5,14 @@ namespace THSCD\AeroFetch\Models;
 /**
  * The Aircraft Model.
  *
- * @since {VERSION}
+ * @since 1.3.0
  */
 class Aircraft extends AbstractModel
 {
     /**
      * The aircraft manufacturer.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var string
      */
@@ -21,7 +21,7 @@ class Aircraft extends AbstractModel
     /**
      * The aircraft model.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var string
      */
@@ -30,7 +30,7 @@ class Aircraft extends AbstractModel
     /**
      * The aircraft type.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var string
      */
@@ -39,7 +39,7 @@ class Aircraft extends AbstractModel
     /**
      * The aircraft IATA code.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var string
      */
@@ -48,7 +48,7 @@ class Aircraft extends AbstractModel
     /**
      * The aircraft ICAO code.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var string
      */

@@ -7,14 +7,14 @@ use THSCD\AeroFetch\Factories\AircraftFactory;
 /**
  * The Aircraft Repository.
  *
- * @since {VERSION}
+ * @since 1.3.0
  */
 class AircraftRepository
 {
     /**
      * The aircraft.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var array
      */
@@ -23,7 +23,7 @@ class AircraftRepository
     /**
      * The aircraft factory.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @var AircraftFactory
      */
@@ -32,7 +32,7 @@ class AircraftRepository
     /**
      * AircraftRepository constructor.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param AircraftFactory $factory The aircraft factory.
      */
@@ -46,7 +46,7 @@ class AircraftRepository
     /**
      * Load $aircraft information from CSV file and cache them in memory.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AircraftRepository
     /**
      * Get an aircraft by its IATA code.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param string $iataCode The IATA code.
      *
@@ -97,7 +97,7 @@ class AircraftRepository
     /**
      * Get aircraft by a specific field.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param string $field The field to search by.
      * @param string $value The value to search for.

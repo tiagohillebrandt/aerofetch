@@ -7,14 +7,14 @@ use THSCD\AeroFetch\Models\Aircraft;
 /**
  * The Aircraft Factory.
  *
- * @since {VERSION}
+ * @since 1.3.0
  */
 class AircraftFactory
 {
     /**
      * Build an aircraft model.
      *
-     * @since {VERSION}
+     * @since 1.3.0
      *
      * @param array $aircraft The aircraft data.
      *
