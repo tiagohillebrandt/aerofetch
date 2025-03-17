@@ -133,11 +133,86 @@ use THSCD\AeroFetch\Services\AirlineService;
 $airlines = AirlineService::getBy('country', 'BR'); // Brazil.
 ```
 
+## Aircrafts
+
+Retrieve aircraft information by IATA code.
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AircraftService;
+
+// Retrieve aircraft information by IATA code.
+$aircraft = AircraftService::get('E90');
+print_r($aircraft);
+```
+
+Result:
+
+```php
+Array
+(
+    [0] => THSCD\AeroFetch\Models\Aircraft Object
+        (
+            [manufacturer:protected] => Embraer
+            [model:protected] => Embraer 190
+            [type:protected] => Passenger Aircraft
+            [iataCode:protected] => E90
+            [icaoCode:protected] => E190
+        )
+    [1] => THSCD\AeroFetch\Models\Aircraft Object
+        (
+            [manufacturer:protected] => Embraer
+            [model:protected] => Embraer Lineage 1000
+            [type:protected] => Passenger Aircraft
+            [iataCode:protected] => E90
+            [icaoCode:protected] => E190
+        )
+)
+```
+
+### Retrieving aircraft by ICAO code
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AircraftService;
+
+// Retrieve aircraft information by ICAO code.
+$aircraft = AircraftService::getBy('icaoCode', 'B38M');
+print_r($aircraft);
+```
+
+Result:
+
+```php
+Array
+(
+    [0] => THSCD\AeroFetch\Models\Aircraft Object
+        (
+            [manufacturer:protected] => Boeing
+            [model:protected] => Boeing 737 MAX 8
+            [type:protected] => Passenger Aircraft
+            [iataCode:protected] => 7M8
+            [icaoCode:protected] => B38M
+        )
+)
+```
+
+### Retrieving all aircrafts by manufacturer
+
+```php
+<?php
+use THSCD\AeroFetch\Services\AircraftService;
+
+// Retrieve all aircraft by manufacturer.
+$aircraft = AircraftService::getBy('manufacturer', 'Airbus');
+```
+
 # Datasets
 
 Datasets used by AeroFetch for airport and airline information:
 
-| Dataset      | Last Updated | Source                                                                                                                                               |
-|--------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| airports.csv | 2025-03-16   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
-| airlines.csv | 2025-03-16   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping) |
+| Dataset       | Last Updated | Source                                                                                                                                               |
+|---------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| airports.csv  | 2025-03-16   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
+| airlines.csv  | 2025-03-16   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping)                                                          |
+| aircraft.csv  | 2025-03-17   | -                                                                                                                                                    |

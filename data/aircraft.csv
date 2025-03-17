@@ -1,0 +1,348 @@
+manufacturer,model,type,iata_code,icao_code
+Aeroprakt,"8KCAB Decathlon, 8GCBC Scout",Passenger Aircraft,,BL8
+Aeroprakt,Aeroprakt A-22 Foxbat / A-22 Valor / A-22 Vision,Passenger Aircraft,,AP22
+Aerospatiale,Aerospatiale (Nord) 262,Passenger Aircraft,ND2,N262
+Aerospatiale,Aerospatiale (Sud Aviation) Se.210 Caravelle,Passenger Aircraft,CRV,S210
+Aerospatiale,Aerospatiale SN.601 Corvette,Passenger Aircraft,NDC,S601
+Aerospatiale,Aerospatiale/Alenia ATR 42-300 / 320,Passenger Aircraft,AT4,AT43
+Aerospatiale,Aerospatiale/Alenia ATR 42-500,Passenger Aircraft,AT5,AT45
+Aerospatiale,Aerospatiale/Alenia ATR 42-600,Passenger Aircraft,ATR,AT46
+Aerospatiale,Aerospatiale/Alenia ATR 72,Passenger Aircraft,AT7,AT72
+Aerospatiale,Aerospatiale/Alenia ATR 72-200 series,Passenger Aircraft,ATR,AT73
+Aerospatiale,Aerospatiale/Alenia ATR 72-500,Passenger Aircraft,ATR,AT75
+Aerospatiale,Aerospatiale/Alenia ATR 72-600,Passenger Aircraft,ATR,AT76
+Airbus,Airbus A220-100,Passenger Aircraft,221,BCS1
+Airbus,Airbus A220-300,Passenger Aircraft,223,BCS3
+Airbus,Airbus A300 (deprecated 1997: code replaced),Passenger Aircraft,,EA30
+Airbus,Airbus A300-600,Passenger Aircraft,AB6,A306
+Airbus,"Airbus A300-600ST ""Super Transporter"" / ""Beluga""",Freighter (Cargo) Aircraft,ABB,A3ST
+Airbus,"Airbus A300B2, A300B4, and A300C4",Passenger Aircraft,AB4,A30B
+Airbus,Airbus A310 (deprecated 1997: code replaced),Passenger Aircraft,,EA31
+Airbus,Airbus A310-200,Passenger Aircraft,312,A310
+Airbus,Airbus A310-200F (Freighter),Freighter (Cargo) Aircraft,31F,A310
+Airbus,Airbus A310-300,Passenger Aircraft,313,A310
+Airbus,Airbus A310-300F (Freighter),Freighter (Cargo) Aircraft,31X,A310
+Airbus,Airbus A318,Passenger Aircraft,318,A318
+Airbus,Airbus A318 (sharklets),Passenger Aircraft,32C,A318
+Airbus,Airbus A319,Passenger Aircraft,319,A319
+Airbus,Airbus A319 (sharklets),Passenger Aircraft,32D,A319
+Airbus,Airbus A319CJ (Corporate Jet used commercially),Passenger Aircraft,31J,A319
+Airbus,Airbus A319neo,Passenger Aircraft,31N,A19N
+Airbus,Airbus A320,Passenger Aircraft,320,A320
+Airbus,Airbus A320 (deprecated 1997: code replaced),Passenger Aircraft,,EA32
+Airbus,Airbus A320 (sharklets),Passenger Aircraft,32A,A320
+Airbus,Airbus A320neo,Passenger Aircraft,32N,A20N
+Airbus,Airbus A321,Passenger Aircraft,321,A321
+Airbus,Airbus A321 (sharklets),Passenger Aircraft,32B,A321
+Airbus,Airbus A321neo,Passenger Aircraft,32Q,A21N
+Airbus,Airbus A321XLR,Passenger Aircraft,32X,A21X
+Airbus,Airbus A330 (deprecated 1997: code replaced),Passenger Aircraft,,EA33
+Airbus,Airbus A330-200,Passenger Aircraft,332,A332
+Airbus,Airbus A330-200F (Freighter),Freighter (Cargo) Aircraft,33F,A332
+Airbus,Airbus A330-300,Passenger Aircraft,333,A333
+Airbus,"Airbus A330-700 ""Beluga XL""",Freighter (Cargo) Aircraft,,A337
+Airbus,Airbus A330-800neo,Passenger Aircraft,338,A338
+Airbus,Airbus A330-900neo,Passenger Aircraft,339,A339
+Airbus,Airbus A330P2F (Passenger to Freighter),Freighter (Cargo) Aircraft,33P,A33P
+Airbus,Airbus A340 (deprecated 1997: code replaced),Passenger Aircraft,,EA34
+Airbus,Airbus A340-200,Passenger Aircraft,342,A342
+Airbus,Airbus A340-300,Passenger Aircraft,343,A343
+Airbus,Airbus A340-500,Passenger Aircraft,345,A345
+Airbus,Airbus A340-600,Passenger Aircraft,346,A346
+Airbus,Airbus A340-600HGW (High Gross Weight),Passenger Aircraft,34H,A346
+Airbus,Airbus A350-1000,Passenger Aircraft,351,A35K
+Airbus,Airbus A350-900,Passenger Aircraft,359,A359
+Airbus,Airbus A380-800,Passenger Aircraft,388,A388
+"Airbus, Aerospatiale, BAE Systems, Sud Aviation, British Aerospace, British Aircraft Corporation",Concorde,Passenger Aircraft,SSC,CONC
+Antonov,Antonov AN-12,Freighter (Cargo) Aircraft,ANF,AN12
+Antonov,Antonov AN-124 Ruslan,Freighter (Cargo) Aircraft,A4F,A124
+Antonov,Antonov AN-140,Passenger Aircraft,A40,A140
+Antonov,Antonov An-148,Passenger Aircraft,A81,A148
+Antonov,Antonov An-158,Passenger Aircraft,A58,A158
+Antonov,Antonov An-225 Mriya,Freighter (Cargo) Aircraft,A5F,A225
+Antonov,Antonov AN-24,Passenger Aircraft,AN4,AN24
+Antonov,Antonov AN-26,Passenger Aircraft,A26,AN26
+Antonov,Antonov AN-28,Passenger Aircraft,A28,AN28
+Antonov,Antonov AN-30,Passenger Aircraft,A30,AN30
+Antonov,Antonov AN-32,Passenger Aircraft,A32,AN32
+Antonov,Antonov AN-72 / AN-74,Passenger Aircraft,AN7,AN72
+Aquila,Aquila A 210,Passenger Aircraft,,A210
+Avions Robin,Robin ATL,Passenger Aircraft,ATL,ATL
+Avions Robin,"Robin HR200/R2000 series, Alpha160A",Passenger Aircraft,,R200
+Avro International Aerospace,Avro RJ100,Passenger Aircraft,AR1,RJ1H
+Avro International Aerospace,Avro RJ70,Passenger Aircraft,AR7,RJ70
+Avro International Aerospace,Avro RJ85,Passenger Aircraft,AR8,RJ85
+Avro International Aerospace,Hawker Siddeley HS 748,Passenger Aircraft,HS7,A748
+Beechcraft,Beechcraft 1900,Passenger Aircraft,BEH,B190
+Beechcraft,Beechcraft Baron / 55 Baron,Passenger Aircraft,,BE55
+Beechcraft,Beechcraft Baron / 58 Baron,Passenger Aircraft,,BE58
+Bell,Bell 212,Helicopter,BH2,B212
+Bell,Bell 412,Helicopter,BH2,B412
+Bell,Bell 429,Helicopter,BH2,B429
+Beriev Aircraft Company,Beriev Be-200 Altair,Passenger Aircraft,,BER2
+Boeing,Boeing 707,Passenger Aircraft,703,B703
+Boeing,Boeing 717,Passenger Aircraft,717,B712
+Boeing,Boeing 720B,Passenger Aircraft,B72,B720
+Boeing,Boeing 727-100,Passenger Aircraft,721,B721
+Boeing,Boeing 727-200,Passenger Aircraft,722,B722
+Boeing,Boeing 737 MAX 10,Passenger Aircraft,7MJ,B3XM
+Boeing,Boeing 737 MAX 7,Passenger Aircraft,7M7,B37M
+Boeing,Boeing 737 MAX 8,Passenger Aircraft,7M8,B38M
+Boeing,Boeing 737 MAX 9,Passenger Aircraft,7M9,B39M
+Boeing,Boeing 737-100,Passenger Aircraft,731,B731
+Boeing,Boeing 737-200,Passenger Aircraft,732,B732
+Boeing,Boeing 737-300,Passenger Aircraft,733,B733
+Boeing,Boeing 737-400,Passenger Aircraft,734,B734
+Boeing,Boeing 737-500,Passenger Aircraft,735,B735
+Boeing,Boeing 737-600,Passenger Aircraft,736,B736
+Boeing,Boeing 737-700,Passenger Aircraft,73G,B737
+Boeing,Boeing 737-800,Passenger Aircraft,738,B738
+Boeing,Boeing 737-900,Passenger Aircraft,739,B739
+Boeing,Boeing 747 LCF Dreamlifter,Freighter (Cargo) Aircraft,74B,BLCF
+Boeing,Boeing 747-100,Passenger Aircraft,741,B741
+Boeing,Boeing 747-100 Freighter,Freighter (Cargo) Aircraft,74T,B741
+Boeing,Boeing 747-200,Passenger Aircraft,742,B742
+Boeing,Boeing 747-200F,Freighter (Cargo) Aircraft,74X,B742
+Boeing,Boeing 747-200M,Combi Aircraft,74C,B742
+Boeing,Boeing 747-300,Passenger Aircraft,743,B743
+Boeing,Boeing 747-300M,Combi Aircraft,74D,B743
+Boeing,Boeing 747-400,Passenger Aircraft,744,B744
+Boeing,Boeing 747-400D (deprecated 2018: no longer flying),Passenger Aircraft,74J,B74D
+Boeing,Boeing 747-400F,Freighter (Cargo) Aircraft,74Y,B744
+Boeing,Boeing 747-400M,Combi Aircraft,74E,B744
+Boeing,Boeing 747-8F,Freighter (Cargo) Aircraft,74N,B748
+Boeing,Boeing 747-8I,Passenger Aircraft,74H,B748
+Boeing,Boeing 747SP,Passenger Aircraft,74L,B74S
+Boeing,Boeing 747SR,Passenger Aircraft,74R,B74R
+Boeing,Boeing 747SR Freighter,Freighter (Cargo) Aircraft,74V,B74R
+Boeing,Boeing 757-200,Passenger Aircraft,752,B752
+Boeing,Boeing 757-200M (Combi – Passenger + Cargo),Combi Aircraft,75C,B752
+Boeing,Boeing 757-300,Passenger Aircraft,753,B753
+Boeing,Boeing 757F,Freighter (Cargo) Aircraft,75F,B752
+Boeing,Boeing 767-200,Passenger Aircraft,762,B762
+Boeing,Boeing 767-300,Passenger Aircraft,763,B763
+Boeing,Boeing 767-300F (Freighter),Freighter (Cargo) Aircraft,76Y,B763
+Boeing,Boeing 767-400ER,Passenger Aircraft,764,B764
+Boeing,Boeing 777-200 / Boeing 777-200ER,Passenger Aircraft,772,B772
+Boeing,Boeing 777-200 Freighter,Freighter (Cargo) Aircraft,77X,B77L
+Boeing,Boeing 777-200LR,Passenger Aircraft,77L,B77L
+Boeing,Boeing 777-200M (Combi – Passenger + Cargo),Combi Aircraft,77C,B772
+Boeing,Boeing 777-300,Passenger Aircraft,773,B773
+Boeing,Boeing 777-300ER,Passenger Aircraft,77W,B77W
+Boeing,Boeing 777-8,Passenger Aircraft,778,B778
+Boeing,Boeing 777-8F (Freighter),Freighter (Cargo) Aircraft,778F,B778
+Boeing,Boeing 777-9,Passenger Aircraft,779,B779
+Boeing,Boeing 787-10,Passenger Aircraft,781,B78X
+Boeing,Boeing 787-8,Passenger Aircraft,788,B788
+Boeing,Boeing 787-9,Passenger Aircraft,789,B789
+Bombardier,Bombardier 415,Passenger Aircraft,,CL2T
+Bombardier,Bombardier BD-100 Challenger 300,Corporate/Private Jet,,CL30
+Bombardier,Bombardier BD-700 Global 5000,Corporate/Private Jet,CCX,GL5T
+Bombardier,Bombardier Global Express / Raytheon Sentinel,Corporate/Private Jet,CCX,GLEX
+Bombardier,Canadair Challenger,Corporate/Private Jet,CCJ,CL60
+Bombardier,Canadair Regional Jet 100,Passenger Aircraft,CR1,CRJ1
+Bombardier,Canadair Regional Jet 1000,Passenger Aircraft,CRK,CRJX
+Bombardier,Canadair Regional Jet 200,Passenger Aircraft,CR2,CRJ2
+Bombardier,Canadair Regional Jet 700 | Regional Jet 550,Passenger Aircraft,CR7,CRJ7
+Bombardier,Canadair Regional Jet 900,Passenger Aircraft,CR9,CRJ9
+British Aerospace,BAe 146-100,Passenger Aircraft,141,B461
+British Aerospace,BAe 146-200,Passenger Aircraft,142,B462
+British Aerospace,BAe 146-300,Passenger Aircraft,143,B463
+British Aerospace,British Aerospace ATP,Passenger Aircraft,ATP,ATP
+British Aerospace,British Aerospace Jetstream 31,Passenger Aircraft,J31,JS31
+British Aerospace,British Aerospace Jetstream 32,Passenger Aircraft,J32,JS32
+British Aerospace,British Aerospace Jetstream 41,Passenger Aircraft,J41,JS41
+British Aircraft Corporation,British Aerospace (BAC) One Eleven,Passenger Aircraft,B11,BA11
+Britten-Norman,Pilatus Britten-Norman BN-2A Mk III Trislander,Passenger Aircraft,BNT,TRIS
+Britten-Norman,Pilatus Britten-Norman BN-2A/B Islander,Passenger Aircraft,BNI,BN2P
+Cessna,Cessna 152,Passenger Aircraft,,C152
+Cessna,Cessna 162,Passenger Aircraft,CN1,C162
+Cessna,Cessna 172,Passenger Aircraft,CN1,C172
+Cessna,Cessna 172 Cutlass RG,Passenger Aircraft,CN1,C72R
+Cessna,Cessna 177 Cardinal RG,Passenger Aircraft,CN1,C77R
+Cessna,Cessna 182 Skylane,Passenger Aircraft,CN1,C182
+Cessna,Cessna 206 Stationair,Passenger Aircraft,CN1,C206
+Cessna,Cessna 208 Caravan,Passenger Aircraft,CN1,C208
+Cessna,Cessna 210 Centurion,Passenger Aircraft,CN1,C210
+Cessna,Cessna 310,Passenger Aircraft,,C310
+Cessna,Cessna Citation CJ2,Corporate/Private Jet,CNJ,C25A
+Cessna,Cessna Citation CJ3,Corporate/Private Jet,CNJ,C25B
+Cessna,Cessna Citation CJ4,Corporate/Private Jet,CNJ,C25C
+Cessna,Cessna Citation Excel,Corporate/Private Jet,CNJ,C56X
+Cessna,Cessna Citation I,Corporate/Private Jet,CNJ,C500
+Cessna,Cessna Citation II,Corporate/Private Jet,CNJ,C550
+Cessna,"Cessna Citation III, VI, VII",Corporate/Private Jet,CNJ,C650
+Cessna,Cessna Citation Mustang,Corporate/Private Jet,CNJ,C510
+Cessna,Cessna Citation Sovereign,Corporate/Private Jet,CNJ,C680
+Cessna,Cessna Citation V,Corporate/Private Jet,CNJ,C560
+Cessna,Cessna Citation X,Corporate/Private Jet,CNJ,C750
+Cessna,Cessna CitationJet,Corporate/Private Jet,CNJ,C525
+Cessna,Reims-Cessna F406 Caravan II,Passenger Aircraft,CNT,F406
+Champion Aircraft Corporation,"7AC Champ, 7ECA Citabria",Passenger Aircraft,,CH7A
+Champion Aircraft Corporation,"7GCAA, 7GCBC, 7KCAB Citabria",Passenger Aircraft,,CH7B
+China Commercial Aircraft,COMAC C919,Passenger Aircraft,,C919
+Cirrus,Cirrus SF50 Vision Jet,Corporate/Private Jet,,SF50
+Convair,Convair CV-240 & -440,Passenger Aircraft,CV4,CVLP
+Convair,"Convair CV-580, Convair CV-600, Convair CV-640",Passenger Aircraft,CV5,CVLT
+Curtiss-Wright,Curtiss C-46 Commando,Freighter (Cargo) Aircraft,CWC,C46
+Dassault Falcon,Dassault Falcon 2000,Corporate/Private Jet,D20,F2TH
+Dassault Falcon,Dassault Falcon 50,Corporate/Private Jet,DF3,FA50
+Dassault Falcon,Dassault Falcon 7X,Corporate/Private Jet,DF7,FA7X
+Dassault Falcon,Dassault Falcon 900,Corporate/Private Jet,DF9,F900
+De Havilland Aircraft of Canada,De Havilland Canada DHC-2 Beaver,Passenger Aircraft,DHP,DHC2
+De Havilland Aircraft of Canada,De Havilland Canada DHC-2 Turbo-Beaver,Passenger Aircraft,DHR,DH2T
+De Havilland Aircraft of Canada,De Havilland Canada DHC-3 Otter,Passenger Aircraft,DHL,DHC3
+De Havilland Aircraft of Canada,De Havilland Canada DHC-4 Caribou,Passenger Aircraft,DHC,DHC4
+De Havilland Aircraft of Canada,De Havilland Canada DHC-5 Buffalo,Passenger Aircraft,DHC,DHC5
+De Havilland Aircraft of Canada,De Havilland Canada DHC-6 Twin Otter,Passenger Aircraft,DHT,DHC6
+De Havilland Aircraft of Canada,De Havilland Canada DHC-7 Dash 7,Passenger Aircraft,DH7,DHC7
+De Havilland Aircraft of Canada,De Havilland Canada DHC-8-100 Dash 8 / 8Q,Passenger Aircraft,DH1,DH8A
+De Havilland Aircraft of Canada,De Havilland Canada DHC-8-200 Dash 8 / 8Q,Passenger Aircraft,DH2,DH8B
+De Havilland Aircraft of Canada,De Havilland Canada DHC-8-300 Dash 8 / 8Q,Passenger Aircraft,DH3,DH8C
+De Havilland Aircraft of Canada,De Havilland Canada DHC-8-400 Dash 8Q,Passenger Aircraft,DH4,DH8D
+De Havilland Aircraft of Canada,De Havilland Comet 2 (deprecated code),Passenger Aircraft,,DH62
+De Havilland Aircraft of Canada,De Havilland Comet 4 (deprecated code),Passenger Aircraft,,DH64
+De Havilland Aircraft of Canada,De Havilland DH.104 Dove,Passenger Aircraft,DHD,DOVE
+De Havilland Aircraft of Canada,De Havilland DH.114 Heron,Passenger Aircraft,DHH,HERN
+Diamond Aircraft Industries,Diamond DA42,Passenger Aircraft,,DA42
+Diamond Aircraft Industries,Diamond DA62,Passenger Aircraft,,DA62
+Dornier Luftfahrt,Fairchild Dornier 328JET,Passenger Aircraft,FRJ,J328
+Dornier Luftfahrt,Fairchild Dornier Do.228,Passenger Aircraft,D28,D228
+Dornier Luftfahrt,Fairchild Dornier Do.328,Passenger Aircraft,D38,D328
+Embraer,Embraer 170,Passenger Aircraft,E70,E170
+Embraer,Embraer 175,Passenger Aircraft,E75,E75S/L
+Embraer,Embraer 175 (long wing),Passenger Aircraft,E7W,E75L
+Embraer,Embraer 175 (short wing),Passenger Aircraft,E7W,E75S
+Embraer,Embraer 190,Passenger Aircraft,E90,E190
+Embraer,Embraer 195,Passenger Aircraft,E95,E195
+Embraer,Embraer E190-E2,Passenger Aircraft,290,E290
+Embraer,Embraer E195-E2,Passenger Aircraft,295,E295
+Embraer,Embraer EMB 110 Bandeirante,Passenger Aircraft,EMB,E110
+Embraer,Embraer EMB 120 Brasilia,Passenger Aircraft,EM2,E120
+Embraer,Embraer EMB 121 Xingu,Passenger Aircraft,,E121
+Embraer,Embraer EMB 202 Ipanema,Passenger Aircraft,,E202
+Embraer,Embraer Legacy 450 / Praetor 500,Corporate/Private Jet,,E545
+Embraer,Embraer Legacy 500 / Praetor 600,Corporate/Private Jet,,E550
+Embraer,Embraer Legacy 600 / Legacy 650,Corporate/Private Jet,ER3,E35L
+Embraer,Embraer Lineage 1000,Passenger Aircraft,E90,E190
+Embraer,Embraer Phenom 100,Corporate/Private Jet,EP1,E50P
+Embraer,Embraer Phenom 300,Corporate/Private Jet,EP3,E55P
+Embraer,Embraer RJ135,Passenger Aircraft,ER3,E135
+Embraer,Embraer RJ140,Passenger Aircraft,ERD,E135
+Embraer,Embraer RJ145,Passenger Aircraft,ER4,E145
+Eurocopter,Eurocopter (Aerospatiale) SA365C / SA365N Dauphin 2,Helicopter,NDH,S65C
+Eurocopter,Eurocopter (MBB) Bo.105,Helicopter,MBH,B105
+Eurocopter,Eurocopter AS332 Super Puma,Helicopter,APH,AS32
+Eurocopter,Eurocopter AS350 Ecureuil / AS355 Ecureuil 2 / AS550 Fennec,Helicopter,NDE,AS50
+Eurocopter,Eurocopter EC120 Colibri / Harbin HC120,Helicopter,,EC20
+Eurocopter,Eurocopter EC135 / EC635,Helicopter,,EC35
+Eurocopter,Eurocopter EC145,Helicopter,,EC45
+Eurocopter,Eurocopter EC225 Super Puma,Helicopter,,EC25
+Evektor-Aerotechnik,EV-97 EuroStar / EV-97 Harmony,Passenger Aircraft,,EV97
+Evektor-Aerotechnik,Evektor SportStar,Passenger Aircraft,,EVSS
+Fokker,Fokker 100,Passenger Aircraft,100,F100
+Fokker,Fokker 50,Passenger Aircraft,F50,F50
+Fokker,Fokker 70,Passenger Aircraft,F70,F70
+Fokker,Fokker F27 Friendship,Passenger Aircraft,F27,F27
+Fokker,Fokker F28 Fellowship,Passenger Aircraft,F21,F28
+GippsAero,GippsAero GA8 Airvan,Passenger Aircraft,,GA8
+Government Aircraft Factories,Government Aircraft Factories N22B / N24A Nomad,Passenger Aircraft,CD2,NOMA
+Grumman,Grumman G-21 Goose,Passenger Aircraft,GRG,G21
+Grumman,Grumman G-73 Turbo Mallard,Passenger Aircraft,GRM,G73T
+Gulfstream,Gulfstream Aerospace G-159 Gulfstream I,Corporate/Private Jet,GRS,G159
+Gulfstream,Gulfstream G280,Corporate/Private Jet,GR3,G280
+Gulfstream,Gulfstream G650,Corporate/Private Jet,GJ6,GLF6
+Gulfstream,Gulfstream IV,Corporate/Private Jet,GJ4,GLF4
+Gulfstream,Gulfstream V,Corporate/Private Jet,GJ5,GLF5
+Gulfstream,Gulfstream/Rockwell (Aero) Commander,Passenger Aircraft,ACP,AC68
+Gulfstream,Gulfstream/Rockwell (Aero) Turbo Commander,Passenger Aircraft,ACT,AC90
+Harbin Aircraft Industry Group,Harbin Yunshuji Y12,Passenger Aircraft,YN2,Y12
+Hawker Beechcraft Corporation,British Aerospace 125 series / Hawker/Raytheon 700/800/800XP/850/900,Corporate/Private Jet,H25,H25B
+Hawker Beechcraft Corporation,British Aerospace 125-1000 series / Hawker/Raytheon 1000,Corporate/Private Jet,H25,H25C
+Honda,Honda HA-420,Corporate/Private Jet,,HDJT
+ICON,ICON A5,Passenger Aircraft,,A5
+Ilyushin,Ilyushin IL18,Passenger Aircraft,IL8,IL18
+Ilyushin,Ilyushin IL62,Passenger Aircraft,IL6,IL62
+Ilyushin,Ilyushin IL76,Freighter (Cargo) Aircraft,IL7,IL76
+Ilyushin,Ilyushin IL86,Passenger Aircraft,ILW,IL86
+Ilyushin,Ilyushin IL96,Passenger Aircraft,I93,IL96
+Indonesian Aerospace,CASA / IPTN 212 Aviocar,Passenger Aircraft,CS2,C212
+Indonesian Aerospace,CASA/IPTN CN-235,Passenger Aircraft,CS5,CN35
+Israel Aircraft Industries,Israel Aircraft Industries 1124 Westwind,Corporate/Private Jet,WWP,WW24
+Junkers,Junkers Ju 52/3M,Passenger Aircraft,JU5,JU52
+Learjet,Learjet 35 / 36 / C-21A,Corporate/Private Jet,LRJ,LJ35
+Learjet,Learjet 60,Corporate/Private Jet,LRJ,LJ60
+Let Kunovice,LET 410,Passenger Aircraft,L4T,L410
+Lockheed Corporation,Lockheed L-1011 Tristar,Passenger Aircraft,L10,L101
+Lockheed Corporation,Lockheed L-1049 Super Constellation,Passenger Aircraft,L49,CONI
+Lockheed Corporation,Lockheed L-182 / 282 / 382 (L-100) Hercules,Freighter (Cargo) Aircraft,LOH,C130
+Lockheed Corporation,Lockheed L-188 Electra,Passenger Aircraft,LOE,L188
+McDonnell Douglas,Douglas DC-10-10 / -15 Passenger,Passenger Aircraft,D11,DC10
+McDonnell Douglas,Douglas DC-10-10 Freighter,Freighter (Cargo) Aircraft,D1X,DC10
+McDonnell Douglas,Douglas DC-10-30 / -40 Freighter,Freighter (Cargo) Aircraft,D1Y,DC10
+McDonnell Douglas,Douglas DC-10-30 / -40 Passenger,Passenger Aircraft,D1C,DC10
+McDonnell Douglas,Douglas DC-10-30 Combi,Combi Aircraft,D1M,DC10
+McDonnell Douglas,Douglas DC-3,Passenger Aircraft,D3F,DC3
+McDonnell Douglas,Douglas DC-6,Passenger Aircraft,D6F,DC6
+McDonnell Douglas,Douglas DC-8-50,Passenger Aircraft,D8T,DC85
+McDonnell Douglas,Douglas DC-8-62,Passenger Aircraft,D8L,DC86
+McDonnell Douglas,Douglas DC-8-72,Passenger Aircraft,D8Q,DC87
+McDonnell Douglas,Douglas DC-9-10,Passenger Aircraft,D91,DC91
+McDonnell Douglas,Douglas DC-9-20,Passenger Aircraft,D92,DC92
+McDonnell Douglas,Douglas DC-9-30,Passenger Aircraft,D93,DC93
+McDonnell Douglas,Douglas DC-9-40,Passenger Aircraft,D94,DC94
+McDonnell Douglas,Douglas DC-9-50,Passenger Aircraft,D95,DC95
+McDonnell Douglas,McDonnell Douglas MD-11,Passenger Aircraft,M11,MD11
+McDonnell Douglas,McDonnell Douglas MD-11C,Combi Aircraft,M1M,MD11
+McDonnell Douglas,McDonnell Douglas MD-11F,Freighter (Cargo) Aircraft,M1F,MD11
+McDonnell Douglas,McDonnell Douglas MD-81,Passenger Aircraft,M81,MD81
+McDonnell Douglas,McDonnell Douglas MD-82,Passenger Aircraft,M82,MD82
+McDonnell Douglas,McDonnell Douglas MD-83,Passenger Aircraft,M83,MD83
+McDonnell Douglas,McDonnell Douglas MD-87,Passenger Aircraft,M87,MD87
+McDonnell Douglas,McDonnell Douglas MD-88,Passenger Aircraft,M88,MD88
+McDonnell Douglas,McDonnell Douglas MD-90,Passenger Aircraft,M90,MD90
+MD Helicopters,MD Helicopters MD900 Explorer,Helicopter,MD9,EXPL
+Mil Moscow Helicopter Plant,Mil Mi-24 / Mi-25 / Mi-35,Helicopter,,MI24
+Mil Moscow Helicopter Plant,MIL Mi-8 / Mi-17 / Mi-171 / Mil-172,Helicopter,MIH,MI8
+Mitsubishi,Mitsubishi Mu-2,Passenger Aircraft,MU2,MU2
+Nihon Aircraft Manufacturing Corporation,NAMC YS-11,Passenger Aircraft,YS1,YS11
+Piaggio Aero,Piaggio P.180 Avanti,Passenger Aircraft,,P180
+Pilatus Aircraft,Pilatus PC-12,Passenger Aircraft,PL2,PC12
+Pilatus Aircraft,Pilatus PC-6 Turbo Porter,Passenger Aircraft,PL6,PC6T
+Piper Aircraft,Piper PA-28 (above 200 hp),Passenger Aircraft,,P28B
+Piper Aircraft,Piper PA-28 (up to 180 hp),Passenger Aircraft,,P28A
+Piper Aircraft,Piper PA-31 Navajo,Passenger Aircraft,PA2,PA31
+Piper Aircraft,Piper PA-44 Seminole,Passenger Aircraft,,PA44
+Piper Aircraft,Piper PA-46,Passenger Aircraft,PAG,PA46
+Pipistrel,Pipistrel Sinus,Passenger Aircraft,,PISI
+Pipistrel,Pipistrel Taurus,Passenger Aircraft,,PITA
+Pipistrel,Pipistrel Virus,Passenger Aircraft,,PIVI
+Russian Aircraft Corporation MiG,Ilyushin IL114,Passenger Aircraft,I14,I114
+Saab,Saab 2000,Passenger Aircraft,S20,SB20
+Saab,Saab SF340A/B,Passenger Aircraft,SF3,SF34
+Short Brothers,Shorts SC-5 Belfast,Freighter (Cargo) Aircraft,SHB,BELF
+Short Brothers,Shorts SC-7 Skyvan,Freighter (Cargo) Aircraft,SHS,SC7
+Short Brothers,Shorts SD.330,Passenger Aircraft,SH3,SH33
+Short Brothers,Shorts SD.360,Passenger Aircraft,SH6,SH36
+Sikorsky,Sikorsky S-58T,Helicopter,S58,S58T
+Sikorsky,Sikorsky S-61,Helicopter,S61,S61
+Sikorsky,Sikorsky S-76,Helicopter,S76,S76
+Sikorsky,Sikorsky S-92,Helicopter,S92,S92
+Socata,Socata TB-20 Trinidad,Passenger Aircraft,,TB20
+Sukhoi,Sukhoi Superjet 100-95,Passenger Aircraft,SU9,SU95
+Team Rocket,Team Rocket F1,Passenger Aircraft,,TRF1
+Tecnam,Tecnam P2002 Sierra,Passenger Aircraft,,SIRA
+Tecnam,Tecnam P2006T,Passenger Aircraft,,P06T
+Tecnam,Tecnam P2008,Passenger Aircraft,,P208
+Tecnam,Tecnam P2010,Passenger Aircraft,,TWEN
+Tecnam,Tecnam P2012 Traveller,Passenger Aircraft,T12,P212
+Tecnam,Tecnam P92 Echo / P92 Eaglet / P92 SeaSky,Passenger Aircraft,,ECHO
+Tecnam,Tecnam P96,Passenger Aircraft,,GOLF
+TL Ultralight,TL Ultralight TL-96 Star / TL-2000 Sting,Passenger Aircraft,,TL20
+Tupolev,Tupolev Tu-134,Passenger Aircraft,TU3,T134
+Tupolev,Tupolev Tu-144,Passenger Aircraft,,T144
+Tupolev,Tupolev Tu-154,Passenger Aircraft,TU5,T154
+Tupolev,Tupolev Tu-204 / Tu-214,Passenger Aircraft,T20,T204
+Vulcanair,Partenavia P.68,Passenger Aircraft,PN6,P68
+Yakovlev,Yakovlev Yak-40,Passenger Aircraft,YK4,YK40
+Yakovlev,Yakovlev Yak-42,Passenger Aircraft,YK2,YK42
