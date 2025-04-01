@@ -213,6 +213,6 @@ Datasets used by AeroFetch for airport and airline information:
 
 | Dataset       | Last Updated | Source                                                                                                                                               |
 |---------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| airports.csv  | 2025-03-16   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
-| airlines.csv  | 2025-03-16   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping)                                                          |
+| airports.csv  | 2025-04-01   | [OurAirports](https://ourairports.com/data/) + [timezonefinder](https://pypi.org/project/timezonefinder/) to determine the timezone for each airport |
+| airlines.csv  | 2025-04-01   | [IATA Airline List](https://www.iata.org/en/about/members/airline-list/) (via web scraping)                                                          |
 | aircraft.csv  | 2025-03-17   | -                                                                                                                                                    |
