@@ -153,6 +153,8 @@ Valcheta Airport,-40.700001,-66.150002,SA,AR,AR-R,Valcheta,,VCF,America/Argentin
 Carmen de Patagones Airport,-40.7781,-62.9803,SA,AR,AR-B,Carmen de Patagones,,CPG,America/Argentina/Buenos_Aires
 Aragip Airport,-9.88333333333,149.483333333,OC,PG,PG-MBA,,,ARP,Pacific/Port_Moresby
 Asirim Airport,-6.009722222220001,150.368611111,OC,PG,PG-WBK,,,ASZ,Pacific/Port_Moresby
+Eisenstadt Heliport,47.84677,16.51345,EU,AT,AT-1,Eisenstadt,LOAE,,Europe/Vienna
+Baden Hospital Helipad,48.000612,16.255796,EU,AT,AT-3,Baden,LOAF,,Europe/Vienna
 Lady Elliot Island Airstrip,-24.1129,152.7156,OC,AU,AU-QLD,Lady Elliot Island,,LYT,Australia/Brisbane
 Gruyere Airport,-28.034548,123.81506,OC,AU,AU-WA,Cosmo Newbery,,GYZ,Australia/Perth
 Packsaddle Airport,-30.29424,142.13758,OC,AU,AU-NSW,Packsaddle,YPAS,,Australia/Sydney
@@ -759,6 +761,7 @@ Lebel-sur-Quevillon Airport,49.0303001404,-77.0171966553,NA,CA,CA-QC,Lebel-sur-Q
 Snap Lake Airport,63.593601,-110.905998,NA,CA,CA-NT,Snap Lake Mine,,YNX,America/Edmonton
 La Sarre Airport,48.917198181152,-79.178596496582,NA,CA,CA-QC,La Sarre,,SSQ,America/Toronto
 Chisasibi Airport,53.805599212646484,-78.91690063476562,NA,CA,CA-QC,Chisasibi,,YKU,America/Toronto
+Ok365comdev,17,20,EU,AD,AD-07,Hồ Chí Minh,HGLD,,Africa/Ndjamena
 Tête-à-la-Baleine Airport,50.674400329589844,-59.38359832763672,NA,CA,CA-QC,Tête-à-la-Baleine,,ZTB,America/Blanc-Sablon
 Kégashka Airport,50.195801,-61.2658,NA,CA,CA-QC,Côte-Nord-du-Golfe-du-Saint-Laurent,,ZKG,America/Blanc-Sablon
 Chute-Des-Passes/Lac Margane Seaplane Base,49.9434,-71.138,NA,CA,CA-QC,Chutes-des-Passes,,YWQ,America/Toronto
@@ -1190,6 +1193,8 @@ Dambulu Oya Tank Seaplane Base,7.8604,80.6304,AS,LK,LK-2,Dambulla,,DBU,Asia/Colo
 Dubai Creek SPB,25.2422222222,55.3313888889,AS,AE,AE-DU,Dubai,,DCG,Asia/Dubai
 Dahl Creek Airport,66.943298,-156.904999,NA,US,US-AK,Dahl Creek,,DCK,America/Anchorage
 Dodoima Airport,-8.17736111111,147.809444444,OC,PG,PG-NPP,,,DDM,Pacific/Port_Moresby
+Gransee Airfield,53.00628,13.202177,EU,DE,DE-BR,Gransee,EDUG,,Europe/Berlin
+Perleberg Glider Field,53.070464,11.818672,EU,DE,DE-MV,,EDUP,,Europe/Berlin
 Deqing Moganshan Airport,30.504264,120.107388,AS,CN,CN-33,Huzhou,,DEQ,Asia/Shanghai
 Nop Goliat Dekai Airport,-4.8557,139.482006,AS,ID,ID-PP,Dekai,,DEX,Asia/Jayapura
 Kaya Airport,13.067,-1.1,AF,BF,BF-SMT,Kaya,DFCA,XKY,Africa/Ouagadougou
@@ -1342,11 +1347,15 @@ Saarbrücken Airport,49.214599609400004,7.10950994492,EU,DE,DE-SL,Saarbrücken,E
 Stuttgart Airport,48.689899,9.22196,EU,DE,DE-BW,Stuttgart,EDDS,STR,Europe/Berlin
 Hannover Airport,52.461102,9.68508,EU,DE,DE-NI,Hannover,EDDV,HAJ,Europe/Berlin
 Bremen Airport,53.046786,8.78932,EU,DE,DE-HB,Bremen,EDDW,BRE,Europe/Berlin
+Heppenheim Glider Field,49.621944,8.624444,EU,DE,DE-HE,Heppenheim,EDEP,,Europe/Berlin
+Anspach-Taunus Airfield,50.288334,8.533889,EU,DE,DE-HE,Wehrheim,EDFA,,Europe/Berlin
 Frankfurt-Hahn Airport,49.9487,7.26389,EU,DE,DE-RP,Frankfurt am Main (Lautzenhausen),EDFH,HHN,Europe/Berlin
 Mannheim-City Airport,49.473057,8.514167,EU,DE,DE-BW,Mannheim,EDFM,MHG,Europe/Berlin
+Ober-Mörlen Airfield,50.3622,8.71164,EU,DE,DE-HE,Ober-Mörlen,EDFP,,Europe/Berlin
 Eisenach-Kindel Airport,50.991604,10.47973,EU,DE,DE-TH,Hörselberg-Hainich,EDGE,EIB,Europe/Berlin
 Ludwigshafen Accident Hospital Heliport,49.486509,8.389243,EU,DE,DE-RP,Ludwigshafen am Rhein,,ZOE,Europe/Berlin
 Siegerland Airport,50.707699,8.08297,EU,DE,DE-NW,Burbach,EDGS,SGE,Europe/Berlin
+Weinheim/Bergstraße Airfield,49.566763,8.61145,EU,DE,DE-BW,Weinheim,EDGZ,,Europe/Berlin
 Grube Airfield,54.244446,11.024722,EU,DE,DE-SH,Grube,EDHB,,Europe/Berlin
 Uetersen-Heist Airfield,53.645477,9.703503,EU,DE,DE-SH,Heist,EDHE,,Europe/Berlin
 Itzehoe Hungriger Wolf Airfield,53.992009,9.576409,EU,DE,DE-SH,Hohenlockstedt,,IZE,Europe/Berlin
@@ -1374,6 +1383,7 @@ Hof-Plauen Airport,50.288544,11.852876,EU,DE,DE-BY,Hof,EDQM,HOQ,Europe/Berlin
 Bitburg Airport,49.945278,6.565,EU,DE,DE-RP,Bitburg,EDRB,BBJ,Europe/Berlin
 Zweibrücken Airport,49.2094,7.40056,EU,DE,DE-RP,Zweibrücken,EDRZ,ZQW,Europe/Berlin
 Karlsruhe Baden-Baden Airport,48.7794,8.0805,EU,DE,DE-BW,Rheinmünster,EDSB,FKB,Europe/Berlin
+Baden-Oos Airfield,48.791943,8.185833,EU,DE,DE-BW,Baden-Baden,EDTB,,Europe/Berlin
 Lahr Airport,48.369301,7.82772,EU,DE,DE-BW,Lahr/Schwarzwald,EDTL,LHA,Europe/Berlin
 Braunschweig-Wolfsburg Airport,52.319199,10.5561,EU,DE,DE-NI,Braunschweig,EDVE,BWE,Europe/Berlin
 Kassel Airport,51.420699,9.392152,EU,DE,DE-HE,Calden,EDVK,KSF,Europe/Berlin
@@ -1387,11 +1397,14 @@ Norden-Norddeich Airport,53.633057,7.190278,EU,DE,DE-NI,Norddeich,EDWS,NOD,Europ
 Varrelbusch Airfield,52.908333,8.040556,EU,DE,DE-NI,Cloppenburg,EDWU,VAC,Europe/Berlin
 Norderney Airport,53.706944,7.23,EU,DE,DE-NI,Norderney,EDWY,NRD,Europe/Berlin
 Baltrum Airport,53.72485,7.373257,EU,DE,DE-NI,Baltrum,EDWZ,BMR,Europe/Berlin
+Flugplatz Achmer,52.37722,7.913333,EU,DE,DE-NI,Bramsche,EDXA,,Europe/Berlin
 Heide-Büsum Airport,54.153332,8.901667,EU,DE,DE-SH,Oesterdeichstrich,EDXB,HEI,Europe/Berlin
 Flensburg-Schäferhaus Airport,54.773335,9.378889,EU,DE,DE-SH,Flensburg,EDXF,FLF,Europe/Berlin
 Helgoland-Düne Airport,54.185279846200004,7.91583299637,EU,DE,DE-SH,Helgoland,EDXH,HGL,Europe/Berlin
 Husum-Schwesing Airport,54.5099983215,9.138333320620001,EU,DE,DE-SH,Husum,EDXJ,QHU,Europe/Berlin
 Sankt Peter-Ording Airport,54.308887,8.686944,EU,DE,DE-SH,Sankt Peter-Ording,EDXO,PSH,Europe/Berlin
+Harlesiel Airfield,53.706669,7.820278,EU,DE,DE-NI,Harlesiel,EDXP,,Europe/Berlin
+Seedorf Airfield,53.335556,9.259444,EU,DE,DE-NI,Zeven,EDXS,,Europe/Berlin
 Westerland Sylt Airport,54.9132,8.34047,EU,DE,DE-SH,Sylt,EDXW,GWT,Europe/Berlin
 Wyk auf Föhr Airport,54.684444,8.528333,EU,DE,DE-SH,Wyk auf Föhr,EDXY,OHR,Europe/Berlin
 Rakvere Airfield,59.364032,26.35874,EU,EE,EE-59,Rakvere,EERE,,Europe/Tallinn
@@ -1460,8 +1473,9 @@ Birmingham Airport,52.453899,-1.74803,EU,GB,GB-ENG,"Birmingham, West Midlands",E
 Coventry Airport,52.369701,-1.47972,EU,GB,GB-ENG,"Coventry, West Midlands",EGBE,CVT,Europe/London
 Gloucestershire Airport,51.89419937133789,-2.167220115661621,EU,GB,GB-ENG,Staverton,EGBJ,GLO,Europe/London
 Sywell Aerodrome,52.305302,-0.793056,EU,GB,GB-ENG,"Northampton, Northamptonshire",EGBK,ORM,Europe/London
-Nottingham Airport,52.919998,-1.07917,EU,GB,GB-ENG,Nottingham,EGBN,NQT,Europe/London
+Nottingham City Airport,52.919998,-1.07917,EU,GB,GB-ENG,Nottingham,EGBN,NQT,Europe/London
 Cotswold Airport,51.668528,-2.056599,EU,GB,GB-ENG,"Cirencester, Gloucestershire",EGBP,GBA,Europe/London
+Coal Aston Airfield,53.304809,-1.42886,EU,GB,GB-ENG,"Dronfield, Derbyshire",EGCA,,Europe/London
 Manchester Airport,53.349375,-2.279521,EU,GB,GB-ENG,"Manchester, Greater Manchester",EGCC,MAN,Europe/London
 Upavon Aerodrome,51.28657,-1.782239,EU,GB,GB-ENG,"Pewsey, Wiltshire",EGDJ,UPV,Europe/London
 RNAS Yeovilton,51.009399,-2.63882,EU,GB,GB-ENG,"Yeovil, Somerset",EGDY,YEO,Europe/London
@@ -1476,18 +1490,18 @@ Oban Airport,56.463501,-5.39967,EU,GB,GB-SCT,North Connel,EGEO,OBN,Europe/London
 Papa Westray Airport,59.351699829100006,-2.9002799987800003,EU,GB,GB-SCT,Papa Westray,EGEP,PPW,Europe/London
 Stronsay Airport,59.1553,-2.64139,EU,GB,GB-SCT,Stronsay,EGER,SOY,Europe/London
 Sanday Airport,59.250301,-2.57667,EU,GB,GB-SCT,Sanday,EGES,NDY,Europe/London
-Lerwick / Tingwall Airport,60.1922,-1.24361,EU,GB,GB-SCT,Sumburgh,EGET,LWK,Europe/London
+Lerwick / Tingwall Airport,60.1922,-1.24361,EU,GB,GB-SCT,"Lerwick, Shetland Islands",EGET,LWK,Europe/London
 Westray Airport,59.3502998352,-2.95000004768,EU,GB,GB-SCT,Westray,EGEW,WRY,Europe/London
 Colonsay Airstrip,56.057499,-6.24306,EU,GB,GB-SCT,Colonsay,,CSA,Europe/London
 Haverfordwest Airport,51.833099365234375,-4.9611101150512695,EU,GB,GB-WLS,Haverfordwest,EGFE,HAW,Europe/London
-Cardiff International Airport,51.396702,-3.34333,EU,GB,GB-WLS,"Rhoose, Vale of Glamorgan",EGFF,CWL,Europe/London
+Cardiff International Airport,51.396702,-3.34333,EU,GB,GB-WLS,Cardiff,EGFF,CWL,Europe/London
 Swansea Airport,51.601366,-4.071006,EU,GB,GB-WLS,Swansea,EGFH,SWS,Europe/London
 Bristol Airport,51.382702,-2.71909,EU,GB,GB-ENG,Bristol,EGGD,BRS,Europe/London
 Liverpool John Lennon Airport,53.333599,-2.84972,EU,GB,GB-ENG,Liverpool,EGGP,LPL,Europe/London
 London Luton Airport,51.874699,-0.368333,EU,GB,GB-ENG,"Luton, Bedfordshire",EGGW,LTN,Europe/London
 Land's End Airport,50.102798,-5.67056,EU,GB,GB-ENG,"Land's End, Cornwall",EGHC,LEQ,Europe/London
-St. Mary's Airport,49.9133,-6.29167,EU,GB,GB-ENG,St. Mary's,EGHE,ISC,Europe/London
-Bournemouth Airport,50.780483,-1.839576,EU,GB,GB-ENG,"Christchurch, Dorset",EGHH,BOH,Europe/London
+St. Mary's Airport,49.913375,-6.291894,EU,GB,GB-ENG,"St. Mary's, Isles of Scilly",EGHE,ISC,Europe/London
+Bournemouth Airport,50.780483,-1.839576,EU,GB,GB-ENG,Bournemouth,EGHH,BOH,Europe/London
 Southampton Airport,50.950298,-1.3568,EU,GB,GB-ENG,Southampton,EGHI,SOU,Europe/London
 Bembridge Airport,50.678101,-1.10944,EU,GB,GB-ENG,"Bembridge, Isle of Wight",EGHJ,BBP,Europe/London
 Lasham Airfield,51.18744,-1.031663,EU,GB,GB-ENG,"Alton, Hampshire",EGHL,,Europe/London
@@ -1507,7 +1521,7 @@ London Heathrow Airport,51.4706,-0.461941,EU,GB,GB-ENG,London,EGLL,LHR,Europe/Lo
 London Southend Airport,51.570562,0.693627,EU,GB,GB-ENG,"Southend-on-Sea, Essex",EGMC,SEN,Europe/London
 Lydd London Ashford Airport,50.956246,0.939074,EU,GB,GB-ENG,"Romney Marsh, Kent",EGMD,LYX,Europe/London
 Carlisle Lake District Airport,54.9375,-2.80917,EU,GB,GB-ENG,Carlisle,EGNC,CAX,Europe/London
-Blackpool International Airport,53.77170181274414,-3.0286099910736084,EU,GB,GB-ENG,Blackpool,EGNH,BLK,Europe/London
+Blackpool Airport,53.771702,-3.02861,EU,GB,GB-ENG,Blackpool,EGNH,BLK,Europe/London
 Humberside Airport,53.576152,-0.34954,EU,GB,GB-ENG,"Grimsby, Lincolnshire",EGNJ,HUY,Europe/London
 Barrow Walney Island Airport,54.1286111,-3.2675,EU,GB,GB-ENG,Barrow-in-Furness,EGNL,BWF,Europe/London
 Leeds Bradford Airport,53.865898,-1.66057,EU,GB,GB-ENG,"Leeds, West Yorkshire",EGNM,LBA,Europe/London
@@ -1517,13 +1531,13 @@ Isle of Man Airport,54.083302,-4.62389,EU,IM,IM-U-A,Castletown,EGNS,IOM,Europe/I
 Newcastle International Airport,55.037958,-1.689577,EU,GB,GB-ENG,"Newcastle upon Tyne, Tyne and Wear",EGNT,NCL,Europe/London
 Teesside International Airport,54.509201,-1.42941,EU,GB,GB-ENG,"Darlington, Durham",EGNV,MME,Europe/London
 East Midlands Airport,52.8311,-1.32806,EU,GB,GB-ENG,Nottingham,EGNX,EMA,Europe/London
-Anglesey Airport,53.2481002808,-4.53533983231,EU,GB,GB-WLS,Angelsey,EGOV,VLY,Europe/London
+Anglesey Airport,53.2481,-4.53534,EU,GB,GB-WLS,Angelsey,EGOV,VLY,Europe/London
 Kirkwall Airport,58.957801818847656,-2.9049999713897705,EU,GB,GB-SCT,Orkney Islands,EGPA,KOI,Europe/London
-Sumburgh Airport,59.87889862060547,-1.2955600023269653,EU,GB,GB-SCT,Lerwick,EGPB,LSI,Europe/London
-Wick Airport,58.458900451660156,-3.09306001663208,EU,GB,GB-SCT,Wick,EGPC,WIC,Europe/London
-Aberdeen Dyce Airport,57.2019,-2.19778,EU,GB,GB-SCT,Aberdeen,EGPD,ABZ,Europe/London
+Sumburgh Airport,59.878899,-1.29556,EU,GB,GB-SCT,"Lerwick, Shetland",EGPB,LSI,Europe/London
+Wick John O'Groats Airport,58.4589,-3.09306,EU,GB,GB-SCT,Wick,EGPC,WIC,Europe/London
+Aberdeen International Airport,57.2019,-2.19778,EU,GB,GB-SCT,Aberdeen,EGPD,ABZ,Europe/London
 Inverness Airport,57.54249954223633,-4.047500133514404,EU,GB,GB-SCT,Inverness,EGPE,INV,Europe/London
-Glasgow International Airport,55.871899,-4.43306,EU,GB,GB-SCT,"Paisley, Renfrewshire",EGPF,GLA,Europe/London
+Glasgow Airport,55.871899,-4.43306,EU,GB,GB-SCT,Glasgow,EGPF,GLA,Europe/London
 Edinburgh Airport,55.950145,-3.372288,EU,GB,GB-SCT,Edinburgh,EGPH,EDI,Europe/London
 Islay Airport,55.682708,-6.257525,EU,GB,GB-SCT,"Isle of Islay, Argyll and Bute",EGPI,ILY,Europe/London
 Glasgow Prestwick Airport,55.502003,-4.587019,EU,GB,GB-SCT,"Prestwick, South Ayrshire",EGPK,PIK,Europe/London
@@ -1533,7 +1547,7 @@ Stornoway Airport,58.215599,-6.33111,EU,GB,GB-SCT,"Stornoway, Western Isles",EGP
 Barra Airport,57.0228,-7.44306,EU,GB,GB-SCT,Eoligarry,EGPR,BRR,Europe/London
 Perth/Scone Airport,56.439201,-3.37222,EU,GB,GB-SCT,Perth,EGPT,PSL,Europe/London
 Tiree Airport,56.49919891357422,-6.869170188903809,EU,GB,GB-SCT,Balemartine,EGPU,TRE,Europe/London
-Unst Airport,60.7472,-0.85385,EU,GB,GB-SCT,Shetland Islands,EGPW,UNT,Europe/London
+Unst Airport,60.7472,-0.85385,EU,GB,GB-SCT,"Baltasound, Shetland Islands",EGPW,UNT,Europe/London
 Leuchars Station Airfield,56.37398,-2.868862,EU,GB,GB-SCT,"Leuchars, Fife",EGQL,ADX,Europe/London
 RAF Lossiemouth,57.7052001953125,-3.339169979095459,EU,GB,GB-SCT,Lossiemouth,EGQS,LMO,Europe/London
 Cambridge City Airport,52.205002,0.175,EU,GB,GB-ENG,"Cambridge, Cambridgeshire",EGSC,CBG,Europe/London
@@ -1556,8 +1570,13 @@ RAF Honington,52.342602,0.772939,EU,GB,GB-ENG,"Bury Saint Edmunds, Suffolk",EGXH
 RAF Waddington,53.166199,-0.523811,EU,GB,GB-ENG,"Lincoln, Lincolnshire",EGXW,WTN,Europe/London
 RAF Marham,52.648395,0.550692,EU,GB,GB-ENG,"King's Lynn, Norfolk",EGYM,KNF,Europe/London
 Mount Pleasant Airport,-51.82279968261719,-58.447200775146484,SA,FK,FK-U-A,Mount Pleasant,EGYP,MPN,Atlantic/Stanley
+Ameland Airport Ballum,53.453612,5.678396,EU,NL,NL-FR,Ballum,EHAL,,Europe/Amsterdam
 Amsterdam Airport Schiphol,52.308601,4.76389,EU,NL,NL-NH,Amsterdam,EHAM,AMS,Europe/Amsterdam
+Kempen Airport Budel,51.255299,5.60139,EU,NL,NL-NB,Weert,EHBD,,Europe/Amsterdam
 Maastricht Aachen Airport,50.911701,5.77014,EU,NL,NL-LI,Maastricht,EHBK,MST,Europe/Amsterdam
+Deelen Air Base,52.0606,5.87306,EU,NL,NL-GE,Arnhem,EHDL,,Europe/Amsterdam
+Drachten Airfield,53.117933,6.127324,EU,NL,NL-FR,Drachten,EHDR,,Europe/Amsterdam
+D15-FA-1 Heliport,54.32472,2.93417,EU,NL,NL-XX,,EHDV,,Etc/GMT
 Eindhoven Airport,51.4500999451,5.37452983856,EU,NL,NL-NB,Eindhoven,EHEH,EIN,Europe/Amsterdam
 Groningen Airport Eelde,53.119701,6.57944,EU,NL,NL-DR,Groningen,EHGG,GRQ,Europe/Amsterdam
 Gilze Rijen Air Base,51.567402,4.93183,EU,NL,NL-NB,Rijen,EHGR,GLZ,Europe/Amsterdam
@@ -1575,19 +1594,20 @@ Bantry Aerodrome,51.6772,-9.487123,EU,IE,IE-CO,Bantry,EIBN,BYT,Europe/Dublin
 Belmullet Aerodrome,54.2228012085,-10.0307998657,EU,IE,IE-MO,Belmullet,EIBT,BLY,Europe/Dublin
 Connemara Regional Airport,53.23030090332031,-9.467780113220215,EU,IE,IE-G,Inverin,EICA,NNR,Europe/Dublin
 Cork Airport,51.841301,-8.49111,EU,IE,IE-CO,Cork,EICK,ORK,Europe/Dublin
-Galway Airport,53.300201,-8.94159,EU,IE,IE-G,Galway,EICM,GWY,Europe/Dublin
+Galway Airport,53.300201,-8.94159,EU,IE,IE-G,Galway,EICM,,Europe/Dublin
 Donegal Airport,55.0442008972168,-8.340999603271484,EU,IE,IE-DL,Donegal,EIDL,CFN,Europe/Dublin
 Dublin Airport,53.428713,-6.262121,EU,IE,IE-D,Dublin,EIDW,DUB,Europe/Dublin
 Inishmore Aerodrome,53.1067008972168,-9.653610229492188,EU,IE,IE-G,Inis Mór,EIIM,IOR,Europe/Dublin
 Inisheer Aerodrome,53.064701,-9.5109,EU,IE,IE-G,Inis Oírr,EIIR,INQ,Europe/Dublin
 Kilkenny Airport,52.65079879760742,-7.296110153198242,EU,IE,IE-KK,Kilkenny,EIKK,KKY,Europe/Dublin
 Ireland West Knock Airport,53.910301,-8.81849,EU,IE,IE-MO,Charlestown,EIKN,NOC,Europe/Dublin
-Kerry Airport,52.180901,-9.52378,EU,IE,IE-KY,Killarney,EIKY,KIR,Europe/Dublin
+Kerry Airport,52.180901,-9.52378,EU,IE,IE-KY,Farranfore,EIKY,KIR,Europe/Dublin
 Letterkenny Airfield,54.951302,-7.67283,EU,IE,IE-DL,Letterkenny,EILT,LTR,Europe/Dublin
 Inishmaan Aerodrome,53.092999,-9.56806,EU,IE,IE-G,Inis Meáin,EIMN,IIA,Europe/Dublin
 Shannon Airport,52.702,-8.92482,EU,IE,IE-CE,Shannon,EINN,SNN,Europe/Dublin
 Sligo Airport,54.280200958252,-8.5992097854614,EU,IE,IE-SO,Sligo,EISG,SXL,Europe/Dublin
 Waterford Airport,52.187199,-7.08696,EU,IE,IE-WD,Waterford,EIWF,WAT,Europe/Dublin
+Weston Airport,53.351622,-6.490357,EU,IE,IE-D,Leixlip,EIWT,,Europe/Dublin
 Ejin Banner Taolai Airport,42.0155,101.0005,AS,CN,CN-15,Ejin Banner,,EJN,Asia/Shanghai
 Enejit Airport,6.0404,171.9846,OC,MH,MH-MIL,Enejit Island,,EJT,Pacific/Majuro
 Aarhus Airport,56.303331,10.618286,EU,DK,DK-82,Aarhus,EKAH,AAR,Europe/Copenhagen
@@ -1797,7 +1817,7 @@ Malamala Airport,-24.816866,31.544085,AF,ZA,ZA-MP,Malamala,FAMD,AAM,Africa/Johan
 Margate Airport,-30.8574008942,30.343000412,AF,ZA,ZA-NL,Margate,FAMG,MGH,Africa/Johannesburg
 Musina(Messina) Airport,-22.355672,29.9862,AF,ZA,ZA-NP,Musina,,MEZ,Africa/Johannesburg
 Mmabatho International Airport,-25.798400878900004,25.548000335699996,AF,ZA,ZA-NW,Mafeking,FAMM,MBD,Africa/Johannesburg
-Malelane Airport,-25.473333,31.565556,AF,ZA,ZA-MP,Malelane,FAMN,LLE,Africa/Johannesburg
+Malelane Airport,-25.473581,31.565947,AF,ZA,ZA-MP,Malelane,FAMN,LLE,Africa/Johannesburg
 Mossel Bay Airport,-34.158746,22.055676,AF,ZA,ZA-WC,Mossel Bay,FAMO,MZY,Africa/Johannesburg
 Morningside Farm Airport,-25.7045001984,26.9090003967,AF,ZA,ZA-NW,Silveroaks,FAMS,,Africa/Johannesburg
 Mkuze Airport,-27.626100540161133,32.0443000793457,AF,ZA,ZA-NL,Mkuze,FAMU,MZQ,Africa/Johannesburg
@@ -2285,6 +2305,7 @@ Nioro du Sahel Airport,15.2381,-9.57611,AF,ML,ML-1,Nioro du Sahel,GANR,NIX,Afric
 Sikasso Airport,11.328611,-5.684722,AF,ML,ML-3,Sikasso,GASK,KSS,Africa/Bamako
 Timbuktu Airport,16.730499,-3.00758,AF,ML,ML-7,Timbuktu,GATB,TOM,Africa/Bamako
 Yélimané Airport,15.123682,-10.571177,AF,ML,ML-1,Yélimané,GAYE,EYL,Africa/Bamako
+Penzance Heliport,50.130376,-5.513946,EU,GB,GB-ENG,"Penzance, Cornwall",EGHK,PZE,Europe/London
 Dornoch Airfield,57.868999,-4.023,EU,GB,GB-SCT,"Dornoch, Sunderland",,DOC,Europe/London
 Flotta Isle Airstrip,58.825802,-3.14278,EU,GB,GB-SCT,Flotta Isle,,FLH,Europe/London
 Foula Airfield,60.121725,-2.053202,EU,GB,GB-SCT,Foula,,FOA,Europe/London
@@ -2652,6 +2673,7 @@ Hollis Clark Bay Seaplane Base,55.481529,-132.646008,NA,US,US-AK,Hollis,,HYL,Ame
 Chengdu Huaizhou Airport,30.677339,104.529397,AS,CN,CN-51,Chengdu (Jintang),,HZU,Asia/Shanghai
 Iboki Airport,-5.5536,149.19,OC,PG,PG-WBK,Iboki,,IBI,Pacific/Port_Moresby
 Indigo Bay Lodge Airport,-21.708,35.452801,AF,MZ,MZ-I,Bazaruto Island,,IBL,Africa/Maputo
+tylekeonhacaibuzz,13,15,AS,VN,VN-U-A,hồ chí minh,ICAN,LHB,Africa/Ndjamena
 Sicogon Airstrip,11.4595,123.2506,AS,PH,PH-ILI,Carles,,ICO,Asia/Manila
 Pulau Panjang Airport,-5.644444,106.5625,AS,ID,ID-JB,Jakarta,,PPJ,Asia/Jakarta
 Syekh Hamzah Fansyuri Airport,2.269614,97.967863,AS,ID,ID-AC,Singkil,WIMI,,Asia/Jakarta
@@ -4697,8 +4719,20 @@ Ljubljana Jože Pučnik Airport,46.223701,14.4576,EU,SI,SI-012,Zgornji Brnik,LJL
 Maribor Edvard Rusjan Airport,46.4799,15.6861,EU,SI,SI-160,Orehova Vas,LJMB,MBX,Europe/Ljubljana
 Portorož Airport,45.47201,13.615951,EU,SI,SI-090,Sečovlje,LJPZ,POW,Europe/Ljubljana
 Nuwara Eliya (Lake Gregory) Waterdrome,6.95605,80.77927,AS,LK,LK-2,Nuwara Eliya,,NUA,Asia/Colombo
+Břeclav Airfield,48.790439,16.892531,EU,CZ,CZ-JM,Břeclav,LKBA,,Europe/Prague
+Benešov Airfield,49.740799,14.6447,EU,CZ,CZ-ST,Benešov,LKBE,,Europe/Prague
+Bohuňovice Airfield,49.670601,17.295,EU,CZ,CZ-OL,Bohuňovice,LKBO,,Europe/Prague
+Broumov Airfield,50.561901,16.3428,EU,CZ,CZ-KR,Broumov,LKBR,,Europe/Prague
+Bubovice Airfield,49.9744,14.1781,EU,CZ,CZ-ST,Bubovice,LKBU,,Europe/Prague
 Lekana Airport,-2.313,14.606,AF,CG,CG-14,Lekana,,LKC,Africa/Brazzaville
+Cheb Airfield,50.066101,12.4117,EU,CZ,CZ-KA,Cheb,LKCB,,Europe/Prague
+Česká Lípa Airfield,50.7094,14.5667,EU,CZ,CZ-LI,Česká Lípa,LKCE,,Europe/Prague
+Chomutov Airfield,50.468899,13.4681,EU,CZ,CZ-US,Otvice,LKCH,,Europe/Prague
+Medlánky Airfield,49.236698,16.555,EU,CZ,CZ-JM,Medlánky,LKCM,,Europe/Prague
+Chrudim Airfield,49.936401,15.7806,EU,CZ,CZ-PA,Chrudim,LKCR,,Europe/Prague
 České Budějovice South Bohemian Airport,48.9464,14.4275,EU,CZ,CZ-JC,České Budějovice,LKCS,JCL,Europe/Prague
+Chotěboř Airfield,49.685799,15.6761,EU,CZ,CZ-VY,Chotěboř,LKCT,,Europe/Prague
+Čáslav Air Base,49.939701,15.3818,EU,CZ,CZ-ST,Chotusice,LKCV,,Europe/Prague
 Kunovice Airport,49.0294,17.439699,EU,CZ,CZ-ZL,Uherské Hradiště,LKKU,UHE,Europe/Prague
 Karlovy Vary Airport,50.202999,12.915,EU,CZ,CZ-KA,Karlovy Vary,LKKV,KLV,Europe/Prague
 Mnichovo Hradiště Airport,50.540199,15.0066,EU,CZ,CZ-ST,Mnichovo Hradiště,,HRA,Europe/Prague
@@ -4708,6 +4742,7 @@ Pardubice Airport,50.01340103149414,15.73859977722168,EU,CZ,CZ-PA,Pardubice,LKPD
 Přerov Air Base,49.4258,17.404699,EU,CZ,CZ-OL,Přerov,LKPO,PRV,Europe/Prague
 Václav Havel Airport Prague,50.100874,14.259911,EU,CZ,CZ-PR,Prague,LKPR,PRG,Europe/Prague
 Brno-Tuřany Airport,49.15129852294922,16.694400787353516,EU,CZ,CZ-JM,Brno,LKTB,BRQ,Europe/Prague
+Točná Airfield,49.985435,14.426465,EU,CZ,CZ-PR,Prague,LKTC,,Europe/Prague
 Vodochody Airport,50.216599,14.3958,EU,CZ,CZ-ST,Vodochody,LKVO,VOD,Europe/Prague
 Zábřeh Dolní Benešov Airfield,49.928258,18.075557,EU,CZ,CZ-MO,Dolní Benešov,LKZA,ZBE,Europe/Prague
 Ben Gurion International Airport,32.011398,34.8867,AS,IL,IL-M,Tel Aviv,LLBG,TLV,Asia/Jerusalem
@@ -4729,10 +4764,14 @@ Malta International Airport,35.857498,14.4775,EU,MT,MT-25,Valletta,LMML,MLA,Euro
 Madivaru Airport,5.457545,73.370261,AS,MV,MV-03,Naifaru,,LMV,Indian/Maldives
 Palma Airport,-10.7506,40.4702,AF,MZ,MZ-P,Palma,,LMZ,Africa/Maputo
 Monaco Heliport,43.725798,7.419673,EU,MC,MC-U-A,Fontvieille,,MCM,Europe/Monaco
+Ottenschlag Airfield,48.41856,15.215294,EU,AT,AT-3,Ottenschlag,LOAA,,Europe/Vienna
+Dobersberg Airfield,48.922113,15.296826,EU,AT,AT-3,Dobersberg,LOAB,,Europe/Vienna
+Völtendorf Airfield,48.160081,15.58677,EU,AT,AT-3,Ober-Grafendorf,LOAD,,Europe/Vienna
 Sankt Anton am Arlberg Heliport,47.119621,10.240524,EU,AT,AT-8,Sankt Anton am Arlberg,,ANT,Europe/Vienna
 Hohenems-Dornbirn Airfield,47.384477,9.699776,EU,AT,AT-8,Hohenems,LOIH,HOH,Europe/Vienna
 Dornbirn City Hospital Heliport,47.406315,9.740058,EU,AT,AT-8,Dornbirn,LOJD,,Europe/Vienna
 Francisco Primo de Verdad y Ramos Airport,21.258983,-101.943758,NA,MX,MX-JAL,Lagos de Moreno,,LOM,America/Mexico_City
+RK-1 Heliport,46.740944,13.664802,EU,AT,AT-2,Fresach,LOMR,,Europe/Vienna
 Lowe AHP (Fort Rucker) Heliport,31.35580063,-85.75119781,NA,US,US-AL,Fort Rucker Ozark,,LOR,America/Chicago
 Graz Airport,46.9911,15.4396,EU,AT,AT-6,Feldkirchen bei Graz,LOWG,GRZ,Europe/Vienna
 Innsbruck Airport,47.260201,11.344,EU,AT,AT-7,Innsbruck,LOWI,INN,Europe/Vienna
@@ -4817,6 +4856,8 @@ Sankt Stephan Airfield,46.497398,7.41257,EU,CH,CH-BE,Sankt Stephan,LSTS,,Europe/
 Zweisimmen Airfield,46.551713,7.381012,EU,CH,CH-BE,Zweisimmen,LSTZ,,Europe/Zurich
 Clariden-Hüfifirn Mountain Landing Site,46.821944,8.880277,EU,CH,CH-GL,Plateau nördlich Planurahütte,LSVD,,Europe/Zurich
 Petersgrat Mountain Landing Site,46.468889,7.828333,EU,CH,CH-BE,Firnplateau,LSVP,,Europe/Zurich
+Vorabgletscher Mountain Landing Site,46.878333,9.151944,EU,CH,CH-GR,Sattel,LSVV,,Europe/Zurich
+Limmerenfirn Mountain Landing Site,46.810556,8.967778,EU,CH,CH-GL,Oberer Firnrand,LSYI,,Europe/Zurich
 Kanderfirn Mountain Landing Site,46.485833,7.828333,EU,CH,CH-BE,West of Mutthorn hut,LSYK,,Europe/Zurich
 Rosa Blanche Mountain Landing Site,46.060833,7.354722,EU,CH,CH-VS,Grat südlich Gipfel,LSYR,,Europe/Zurich
 Glacier du Trient Mountain Landing Site,45.9883,7.0425,EU,CH,CH-VS,Firnrand,LSYX,,Europe/Zurich
@@ -4925,10 +4966,13 @@ Niš Constantine the Great Airport,43.337009,21.85451,EU,RS,RS-20,Niš,LYNI,INI,
 Podgorica Airport / Podgorica Golubovci Airbase,42.359402,19.2519,EU,ME,ME-16,Podgorica,LYPG,TGD,Europe/Podgorica
 Tivat Airport,42.404701232910156,18.72330093383789,EU,ME,ME-19,Tivat,LYTV,TIV,Europe/Podgorica
 Ponikve Airport,43.898899,19.697701,EU,RS,RS-16,Stapari,LYUZ,UZC,Europe/Belgrade
+Bidovce Airfield,48.743192,21.448285,EU,SK,SK-KI,Bidovce,LZBD,,Europe/Bratislava
 Langzhong Gucheng Airport,31.50191,106.034417,AS,CN,CN-51,Nanchong (Langzhong),,LZG,Asia/Shanghai
 M. R. Štefánik Airport,48.1702,17.2127,EU,SK,SK-BL,Bratislava,LZIB,BTS,Europe/Bratislava
 Košice International Airport,48.663101,21.2411,EU,SK,SK-KI,Košice,LZKZ,KSC,Europe/Bratislava
 Lučenec Airfield,48.339401,19.7358,EU,SK,SK-BC,Lučenec,LZLU,LUE,Europe/Bratislava
+Martin Airfield,49.0653,18.9508,EU,SK,SK-ZI,Martin,LZMA,,Europe/Bratislava
+Malacky/Kuchyňa Air Base,48.402,17.118401,EU,SK,SK-BL,Kuchyňa,LZMC,,Europe/Bratislava
 Piešťany Airport,48.62519836425781,17.828399658203125,EU,SK,SK-TA,Piešťany,LZPP,PZY,Europe/Bratislava
 Prešov Air Base,49.02970123291,21.315599441528,EU,SK,SK-PV,Prešov,LZPW,POV,Europe/Bratislava
 Sliač Airport,48.63779830932617,19.13409996032715,EU,SK,SK-BC,Sliač,LZSL,SLD,Europe/Bratislava
@@ -5446,7 +5490,7 @@ Valesdir Airport,-16.796100616500002,168.177001953,OC,VU,VU-SEE,Epi Island,NVSV,
 Walaha Airport,-15.412,167.690994,OC,VU,VU-PAM,Walaha,NVSW,WLH,Pacific/Efate
 Southwest Bay Airport,-16.4864,167.4472,OC,VU,VU-MAP,Malekula Island,NVSX,SWJ,Pacific/Efate
 North West Santo Airport,-14.881699562099998,166.557998657,OC,VU,VU-SAM,Olpoi,NVSZ,OLJ,Pacific/Efate
-Aneityum Airport,-20.249201,169.770996,OC,VU,VU-TAE,Anatom Island,NVVA,AUY,Pacific/Efate
+Aneityum Airport,-20.249142,169.770758,OC,VU,VU-TAE,Anatom Island,NVVA,AUY,Pacific/Efate
 Aniwa Airport,-19.2346,169.6009,OC,VU,VU-TAE,Aniwa,NVVB,AWD,Pacific/Efate
 Dillon's Bay Airport,-18.7694,169.001007,OC,VU,VU-TAE,Dillon's Bay,NVVD,DLY,Pacific/Efate
 Futuna Airport,-19.516399383499998,170.231994629,OC,VU,VU-TAE,Futuna Island,NVVF,FTA,Pacific/Efate
@@ -6718,6 +6762,7 @@ Doctor Luis Maria Argaña International Airport,-22.046499,-60.6217,SA,PY,PY-19,
 Fuerte Olimpo Airport,-21.045724,-57.882935,SA,PY,PY-16,Fuerte Olimpo,SGOL,OLK,America/Asuncion
 Aeródromo Don Carlos Miguel Gimenez,-26.881981,-58.319067,SA,PY,PY-12,Pilar,SGPI,PIL,America/Asuncion
 Dr. Augusto Roberto Fuster Airport,-22.641427,-55.829993,SA,PY,PY-13,Pedro Juan Caballero,SGPJ,PJC,America/Asuncion
+"Dr. Juan Noé Crevani, Arica Regional Hospital Helipad",-18.482836,-70.31314,SA,CL,CL-AP,Arica,SHJN,,America/Santiago
 San José Island Airport,8.2622,-79.078,NA,PA,PA-8,Las Perlas,,SIC,America/Panama
 Campo Comandantes Airport,-26.983055,-48.816387,SA,BR,BR-SC,Itajaí,,ITJ,America/Sao_Paulo
 Municipal Bom Futuro Airport,-13.037861,-55.95025,SA,BR,BR-MT,Lucas do Rio Verde,SILC,LVR,America/Cuiaba
@@ -6733,6 +6778,8 @@ Juruti Airport,-2.186667,-56.090279,SA,BR,BR-PA,Juruti,,JRT,America/Santarem
 Jorge Luiz Stocco Airport,-25.40068,-49.80028,SA,BR,BR-PR,Palmeira,SJOY,,America/Sao_Paulo
 Rio Grande Regional Airport,-32.083065,-52.167184,SA,BR,BR-RS,Rio Grande,,RIG,America/Sao_Paulo
 Aragarças Airport,-15.8994,-52.2411,SA,BR,BR-GO,Aragarças,,ARS,America/Sao_Paulo
+Dobra Niva airfield,48.488716,19.101749,EU,SK,SK-BC,Zvolen,LZDN,,Europe/Bratislava
+Dunajská Streda-Malé Blahovo Airfield,48.020261,17.612572,EU,SK,SK-TA,Dunajská Streda,LZDU,,Europe/Bratislava
 El Encanto Airport,-1.7533333333299999,-73.20472222219999,SA,CO,CO-AMA,El Encanto,,ECO,America/Bogota
 Miriti Parana Airport,-0.886017,-70.983446,SA,CO,CO-AMA,Mirití-Paraná,,MIX,America/Bogota
 Arboletes Airport,8.855118,-76.422676,SA,CO,CO-ANT,Arboletes,,ARO,America/Bogota
@@ -6750,7 +6797,7 @@ Pore Airport,5.733333,-71.983333,SA,CO,CO-CAS,Pore,,PRE,America/Bogota
 San Luis De Palenque Airport,5.400181,-71.7001,SA,CO,CO-CAS,San Luis De Palenque,,SQE,America/Bogota
 Tablón De Tamara Airport,5.726667,-72.100556,NA,CO,CO-CAS,Tablón De Tamara,,TTM,America/Bogota
 Lopez de Micay Airport,2.841177,-77.237214,SA,CO,CO-CAU,Micay,,LMX,America/Bogota
-Ayacucho Airport,8.6,-73.616667,SA,CO,CO-CES,Ayacucho,,AYC,America/Bogota
+Ayacucho Airport,8.602149,-73.612866,NA,CO,CO-CES,Ayacucho,,AYC,America/Bogota
 Gamarra Airport,8.20199,-73.7653,NA,CO,CO-CES,Puerto Mosquito,,GRA,America/Bogota
 Las Flores Airport,10.096608,-73.2337,SA,CO,CO-CES,Codazzi,,DZI,America/Bogota
 San Juan Del César Airport,10.766667,-73.016667,SA,CO,CO-CES,San Juan Del César,,SJH,America/Bogota
@@ -6896,7 +6943,7 @@ El Alcaravan - Yopal Airport,5.31911,-72.384,NA,CO,CO-CAS,Yopal,SKYP,EYP,America
 Monteagudo Airport,-19.827,-63.960999,SA,BO,BO-H,El Bañado,SLAG,MHW,America/La_Paz
 Alcantarí Airport,-19.246835,-65.149611,SA,BO,BO-H,Yamparaez,,SRE,America/La_Paz
 Apolo Airport,-14.7356,-68.411903,SA,BO,BO-L,Apolo,SLAP,APB,America/La_Paz
-Ascención De Guarayos Airport,-15.9303,-63.1567,SA,BO,BO-S,Ascensión de Guarayos,SLAS,ASC,America/La_Paz
+Ascención de Guarayos Airport,-15.933365,-63.155575,SA,BO,BO-S,Ascensión de Guarayos,SLAS,ASC,America/La_Paz
 Bermejo Airport,-22.7733001709,-64.31289672850001,SA,BO,BO-T,Bermejo,SLBJ,BJO,America/La_Paz
 Camiri Airport,-20.00656,-63.527827,SA,BO,BO-S,Camiri,SLCA,CAM,America/La_Paz
 Jorge Wilsterman International Airport,-17.421100616455078,-66.1771011352539,SA,BO,BO-C,Cochabamba,SLCB,CBB,America/La_Paz
@@ -8406,6 +8453,7 @@ Glendale Fokker Field,39.948699951200005,-80.7594985962,NA,US,US-WV,Glendale,,GW
 Urad Middle Banner Airport,41.460289,108.539085,AS,CN,CN-15,Urad Middle Banner,,WZQ,Asia/Shanghai
 Miami Seaplane Base,25.778299331665,-80.170303344727,NA,US,US-FL,Miami,,MPB,America/New_York
 Blubber Bay Seaplane Base,49.793958,-124.621064,NA,CA,CA-BC,Blubber Bay,,XBB,America/Vancouver
+Ok365comdev,10,12,AS,VN,VN-NC,Hồ Chí Minh,CCAA,,Africa/Lagos
 Xinguara Municipal Airport,-7.0906,-49.9765,SA,BR,BR-PA,Xinguara,,XIG,America/Belem
 Maramag Airport,7.7538,125.0333,AS,PH,PH-BUK,Maramag,,XMA,Asia/Manila
 New Barag Right Banner Baogede Airport,48.575585,116.939382,AS,CN,CN-15,New Barag Right Banner,,XRQ,Asia/Shanghai
@@ -8432,7 +8480,7 @@ Armidale Airport,-30.528099060099997,151.617004395,OC,AU,AU-NSW,Armidale,YARM,AR
 Arrabury Airport,-26.69639,141.048718,OC,AU,AU-QLD,Tanbar,YARY,AAB,Australia/Brisbane
 Aurukun Airport,-13.354019,141.720028,OC,AU,AU-QLD,Aurukun,YAUR,AUU,Australia/Brisbane
 Austral Downs Airport,-20.5,137.75,OC,AU,AU-NT,,,AWP,Australia/Darwin
-Auvergne Airport,-15.699999809265137,130,OC,AU,AU-NT,,YAUV,AVG,Australia/Darwin
+Auvergne Airport,-15.690555,130.008818,OC,AU,AU-NT,Auvergne Station,YAUV,AVG,Australia/Darwin
 Ayers Rock Connellan Airport,-25.185913,130.97703,OC,AU,AU-NT,Yulara,YAYE,AYQ,Australia/Darwin
 Ayr Airport,-19.595832,147.324495,OC,AU,AU-QLD,Ayr,YAYR,AYR,Australia/Brisbane
 Mount Barnett Airport,-16.741453,125.905608,OC,AU,AU-WA,Wunaamin Miliwundi Ranges,,MBN,Australia/Perth
@@ -8900,7 +8948,7 @@ Dubbo City Regional Airport,-32.2167015076,148.574996948,OC,AU,AU-NSW,Dubbo,YSDU
 Serpentine Airport,-32.394966,115.870987,OC,AU,AU-WA,,YSEN,,Australia/Perth
 St George Airport,-28.049699783325195,148.59500122070312,OC,AU,AU-QLD,,YSGE,SGO,Australia/Brisbane
 Singleton Airport,-32.600832,151.193056,OC,AU,AU-NSW,Singleton,YSGT,SIX,Australia/Sydney
-South Galway Airport,-25.6833,142.108002,OC,AU,AU-QLD,,YSGW,ZGL,Australia/Brisbane
+South Galway Airport,-25.67464,142.089171,OC,AU,AU-QLD,,YSGW,ZGL,Australia/Brisbane
 Shay Gap Airport,-20.4247,120.140999,OC,AU,AU-WA,Shay Gap,YSHG,SGP,Australia/Perth
 Shark Bay Airport,-25.897294,113.575802,OC,AU,AU-WA,Denham,YSHK,MJK,Australia/Perth
 Shellharbour Airport,-34.5611,150.789001,OC,AU,AU-NSW,Albion Park Rail,,WOL,Australia/Sydney
@@ -9287,7 +9335,7 @@ Shanshan Airport,42.911701,90.247498,AS,CN,CN-65,Shanshan,ZWSS,SXJ,Asia/Urumqi
 Tacheng Qianquan Airport,46.672501,83.340797,AS,CN,CN-65,Tacheng,ZWTC,TCG,Asia/Urumqi
 Turpan Jiaohe Airport,43.0308,89.0987,AS,CN,CN-65,Turpan,ZWTL,TLQ,Asia/Urumqi
 Hotan Airport,37.03850173950195,79.86489868164062,AS,CN,CN-65,Hotan,ZWTN,HTN,Asia/Urumqi
-Ürümqi Diwopu International Airport,43.907100677490234,87.47419738769531,AS,CN,CN-65,Ürümqi,ZWWW,URC,Asia/Urumqi
+Ürümqi Tianshan International Airport,43.907101,87.474197,AS,CN,CN-65,Ürümqi,ZWWW,URC,Asia/Urumqi
 Yining Airport,43.955799,81.330299,AS,CN,CN-65,Ili (Yining / Ghulja),ZWYN,YIN,Asia/Urumqi
 Yutian Wanfang Airport,36.8085,81.7827,AS,CN,CN-65,Hotan (Yutian),ZWYT,YTW,Asia/Urumqi
 Anshan Teng'ao Airport / Anshan Air Base,41.105301,122.853996,AS,CN,CN-21,Anshan,ZYAS,AOG,Asia/Shanghai
@@ -9320,4 +9368,3 @@ Shenyang Taoxian International Airport,41.639801,123.483002,AS,CN,CN-21,"Hunnan,
 Xingcheng Air Base,40.580328,120.700374,AS,CN,CN-21,Huludao (Xingcheng),ZYXC,XEN,Asia/Shanghai
 Yanji Chaoyangchuan Airport,42.8828010559,129.451004028,AS,CN,CN-22,Yanji,ZYYJ,YNJ,Asia/Shanghai
 Yingkou Lanqi Airport,40.542524,122.3586,AS,CN,CN-21,Yingkou (Laobian),ZYYK,YKH,Asia/Shanghai
-Penzance Heliport,50.130376,-5.513946,EU,GB,GB-ENG,"Penzance, Cornwall",EGHK,PZE,Europe/London
