@@ -64,7 +64,7 @@ class AirportRepository
 
         foreach ($airports as $airport) {
             // Skip the header.
-            if ($airport[0] === 'name') {
+            if ($airport[0] === 'type') {
                 continue;
             }
 
