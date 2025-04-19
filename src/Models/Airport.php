@@ -10,6 +10,15 @@ namespace THSCD\AeroFetch\Models;
 class Airport extends AbstractModel
 {
     /**
+     * The airport type.
+     *
+     * @since {VERSION}
+     *
+     * @var string
+     */
+    protected string $type;
+
+    /**
      * The airport name.
      *
      * @since 1.0.0

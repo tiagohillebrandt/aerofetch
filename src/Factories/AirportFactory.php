@@ -46,21 +46,22 @@ class AirportFactory
     public function build(array $airport): Airport
     {
         // Get the country.
-        $country = $this->countryService->get($airport[4]) ?? $airport[4];
+        $country = $this->countryService->get($airport[5]) ?? $airport[5];
 
         // Build the model.
         $model = new Airport();
 
-        $model->iataCode     = $airport[8];
-        $model->icaoCode     = $airport[7];
-        $model->name         = $airport[0];
-        $model->continent    = Continent::getName($airport[3]);
+        $model->type         = $airport[0];
+        $model->iataCode     = $airport[9];
+        $model->icaoCode     = $airport[8];
+        $model->name         = $airport[1];
+        $model->continent    = Continent::getName($airport[4]);
         $model->country      = $country;
-        $model->region       = $airport[5];
-        $model->municipality = $airport[6];
-        $model->latitude     = $airport[1];
-        $model->longitude    = $airport[2];
-        $model->timezone     = $airport[9];
+        $model->region       = $airport[6];
+        $model->municipality = $airport[7];
+        $model->latitude     = $airport[2];
+        $model->longitude    = $airport[3];
+        $model->timezone     = $airport[10];
 
         return $model;
     }
