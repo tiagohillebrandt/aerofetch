@@ -12,7 +12,7 @@ class Airport extends AbstractModel
     /**
      * The airport type.
      *
-     * @since {VERSION}
+     * @since 1.4.0
      *
      * @var string
      */
