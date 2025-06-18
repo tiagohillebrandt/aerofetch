@@ -40,6 +40,8 @@ Air New Zealand;NZ;086;ANZ;New Zealand
 Air Niugini;PX;656;ANG;Papua New Guinea
 Air Nostrum;YW;694;ANE;Spain
 Air Peace;P4;710;APK;Nigeria
+Air Premia;YP;350;APZ;Korea
+Air Senegal;HC;490;SZN;Senegal
 Air Serbia;JU;115;ASL;Serbia
 Air Seychelles;HM;061;SEY;Seychelles
 Air Tahiti;VT;135;VTA;French Polynesia
@@ -49,6 +51,7 @@ Air Transat;TS;649;TSC;Canada
 Air Vanuatu;NF;218;AVN;Vanuatu
 AirBridgeCargo Airlines;RU;580;ABW;Russian Federation
 Aircalin;SB;063;ACI;New Caledonia
+Airhub Airlines;RE;521;GJM;Malta
 Airline Geosky / Georgian Wings;D4;330;GEL;Georgia
 Airlink;4Z;749;LNK;South Africa
 Alaska Airlines;AS;027;ASA;United States
@@ -81,6 +84,7 @@ Bamboo Airways;QH;926;BAV;Viet Nam
 Bangkok Airways;PG;829;BKP;Thailand
 Batik Air;ID;938;BTK;Indonesia
 Batik Air Malaysia;OD;816;MXD;Malaysia
+BBN Airlines;B5;386;BBT;Turkey
 Belavia Belarusian Airlines;B2;;BRU;Belarus
 Biman Bangladesh Airlines;BG;997;BBC;Bangladesh
 Binter Canarias;NT;474;IBB;Spain
@@ -112,7 +116,6 @@ China United Airlines;KN;822;CUA;China
 CityJet;WX;689;BCY;Ireland
 Clic Air;VE;246;EFY;Colombia
 Condor;DE;881;CFG;Germany
-Congo Airways;8Z;582;CGA;Congo
 COPA Airlines;CM;230;CMP;Panama
 Corendon Airlines;XC;395;CAI;Turkey
 Corsair International;SS;923;CRL;France
@@ -159,6 +162,7 @@ Garuda Indonesia;GA;126;GIA;Indonesia
 Georgian Airways;A9;606;TGZ;Georgia
 German Airways;ZQ;944;GER;Germany
 GetJet Airlines;GW;059;GJT;Lithuania
+GetJet Airlines Latvia;GJ;;DML;Latvia
 GlobalX;G6;402;GXA;United States
 GOL Linhas Aereas;G3;127;GLO;Brazil
 Greater Bay Airlines;HB;283;HGB;China
@@ -193,11 +197,13 @@ Jazeera Airways;J9;486;JZR;Kuwait
 JD Airlines;JG;619;JDL;China
 Jeju Air;7C;806;JJA;Korea
 JetBlue;B6;279;JBU;United States
+Jettime;JP;;JTD;Denmark
 Jin Air;LJ;718;JNA;Korea
 Jordan Aviation;R5;151;JAV;Jordan
 Juneyao Airlines;HO;018;DKH;China
 Kam Air;RQ;384;KMF;Afghanistan
 Kenya Airways;KQ;706;KQA;Kenya
+KlasJet;KJ;;KLJ;Lithuania
 KLM;KL;074;KLM;Netherlands
 KM Malta Airlines;KM;643;KMM;Malta
 Korean Air;KE;180;KAL;Korea
@@ -215,6 +221,7 @@ LATAM Airlines Peru;LP;544;LPE;Peru
 LATAM Cargo Brasil;M3;549;LTG;Brazil
 LATAM Cargo Chile;UC;145;LCO;Chile
 Link Airways;FC;441;;Australia
+Lion Air;JT;990;LNI;Indonesia
 Loganair;LM;682;LOG;United Kingdom
 Loong Air;GJ;891;CDC;China
 LOT Polish Airlines;LO;080;LOT;Poland
@@ -244,6 +251,7 @@ Nippon Cargo Airlines;KZ;933;NCA;Japan
 Nok Air;DD;596;NOK;Thailand
 NordStar;Y7;476;TYA;Russian Federation
 Nordwind Airlines;N4;216;NWS;Russian Federation
+Norra;N7;;FCM;Finland
 Nouvelair;BJ;796;LBT;Tunisia
 Okay Airways;BK;866;OKA;China
 Olympic Air;OA;050;OAL;Greece
