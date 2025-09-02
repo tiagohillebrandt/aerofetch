@@ -8,7 +8,6 @@ Aeroitalia;XZ;419;AEZ;Italy
 Aerolineas Argentinas;AR;044;ARG;Argentina
 Aeromexico;AM;139;AMX;Mexico
 Africa World Airlines;AW;394;AFW;Ghana
-Afrijet;J7;277;ABS;Gabon
 Air Algérie;AH;124;DAH;Algeria
 Air Arabia;G9;514;ABY;United Arab Emirates
 Air Astana;KC;465;KZR;Kazakhstan
@@ -32,6 +31,7 @@ Air Guilin;GT;730;CGH;China
 Air Hong Kong;LD;288;AHK;China
 Air Incheon;KJ;994;AIH;Korea
 Air India;AI;098;AIC;India
+Air India Express;IX;236;AXB;India
 Air Koryo;JS;120;KOR;Korea
 Air Macau;NX;675;AMU;China
 Air Mauritius;MK;239;MAU;Mauritius
@@ -48,11 +48,11 @@ Air Tahiti;VT;135;VTA;French Polynesia
 Air Tahiti Nui;TN;244;THT;French Polynesia
 Air Tanzania;TC;197;ATC;Tanzania
 Air Transat;TS;649;TSC;Canada
-Air Vanuatu;NF;218;AVN;Vanuatu
+Air Vanuatu;NF;;AVN;Vanuatu
 AirBridgeCargo Airlines;RU;580;ABW;Russian Federation
 Aircalin;SB;063;ACI;New Caledonia
 Airhub Airlines;RE;521;GJM;Malta
-Airline Geosky / Georgian Wings;D4;330;GEL;Georgia
+Airline GEO SKY;D4;330;GEL;Georgia
 Airlink;4Z;749;LNK;South Africa
 Alaska Airlines;AS;027;ASA;United States
 Albastar;AP;;LAV;Spain
@@ -135,7 +135,7 @@ Egyptair;MS;077;MSR;Egypt
 EL AL;LY;114;ELY;Israel
 Electra Airways;3E;;EAF;Bulgaria
 Emirates;EK;176;UAE;United Arab Emirates
-Estafeta Cargo;E7;355;EST;Mexico
+Estafeta Cargo;E7;355;ESF;Mexico
 Ethiopian Airlines;ET;071;ETH;Ethiopia
 Etihad Airways;EY;607;ETD;United Arab Emirates
 EuroAtlantic Airways;YU;551;MMZ;Portugal
@@ -153,6 +153,7 @@ Fly Namibia;WV;;WAA;Namibia
 Fly2Sky;F6;;VAW;Bulgaria
 flyadeal;F3;560;FAD;Saudi Arabia
 flydubai;FZ;141;FDB;United Arab Emirates
+FlyGabon;J7;277;ABS;Gabon
 Flynas;XY;593;KNE;Saudi Arabia
 FLYONE;5F;130;FIA;Moldova
 Freebird Airlines;FH;None;FHY;Turkey
@@ -262,7 +263,7 @@ PAL Express;2P;211;GAP;Philippines
 Paranair;ZP;445;AZP;Paraguay
 Pegasus Airlines;PC;624;PGT;Turkey
 Petroleum Air Services;UF;505;PER;Egypt
-PGA-Portugalia Airlines;NI;685;PGA;Portugal
+PGA-Portugalia Airlines;NI;;PGA;Portugal
 Philippine Airlines;PR;079;PAL;Philippines
 Plus Ultra;PU;663;PUE;Spain
 Polar Air Cargo;PO;403;PAC;United States
